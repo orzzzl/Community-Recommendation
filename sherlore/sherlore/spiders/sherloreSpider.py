@@ -19,7 +19,7 @@ class sherloreSpider (scrapy.Spider):
             titles = []
             for sel in select:
                 urls.append (urljoin (self.start_urls [0], sel.xpath ('@href').extract () [0]))
-                titles.append (sel.xpath('text()').extract())
+                titles.append (sel.xpath('text()').extract() [0])
             lenth = len (urls)
             for i in xrange (lenth):
                 url = urls [i]
