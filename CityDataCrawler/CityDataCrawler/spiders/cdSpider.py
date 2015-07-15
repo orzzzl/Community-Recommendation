@@ -65,8 +65,8 @@ class cdSpider (scrapy.Spider):
         item ['norph'] = self.query("Number of rooms per house")
         item ['nocs'] = self.query("Number of college students")
         item ['popwabdoh'] = self.query("Percentage of population with a bachelor's degree or higher")
-        item ['lc'] = self.query("Lesbian couples")
-        item ['gm'] = self.query("Gay men")
+        item ['lc'] = self.query("Lesbian couples:")
+        item ['gm'] = self.query("Gay men:")
         item ['mmocfuwitham'] = self.query("Median monthly owner costs for units with a mortgage")
         item ['mmocfuwithoutam'] = self.query("Median monthly owner costs for units without a mortgage")
         yield item
