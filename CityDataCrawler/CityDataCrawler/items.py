@@ -29,3 +29,10 @@ class CitydatacrawlerItem(scrapy.Item):
     la = scrapy.Field()    #Land area      sq. mi.
     wa = scrapy.Field()    #water area      sq. mi.
     pd = scrapy.Field()    #Population density     How many people per sq mile
+    mreptpfhuwm = scrapy.Field()    #Median real estate property taxes paid for housing units with mortgages
+    mreptpfhuwnm = scrapy.Field()    #Median real estate property taxes paid for housing units with no mortgage
+    hsoh = scrapy.Field()    #High school or higher
+    bdoh = scrapy.Field()    #Bachelor's degree or higher
+    gopd = scrapy.Field()    #Graduate or professional degree
+    unemployed = scrapy.Field()    #Unemployed
+    mtttw = scrapy.Field()    #Mean travel time to work

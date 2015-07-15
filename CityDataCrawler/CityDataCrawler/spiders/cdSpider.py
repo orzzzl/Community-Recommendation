@@ -47,6 +47,13 @@ class cdSpider (scrapy.Spider):
         item ['la'] = self.query("Land area:")
         item ['wa'] = self.query("Water area:")
         item ['pd'] = self.query("Population density:")
+        item ['mreptpfhuwm'] = self.query("Median real estate property taxes paid for housing units with mortgages")
+        item ['mreptpfhuwnm'] = self.query("Median real estate property taxes paid for housing units with no mortgage")
+        item ['hsoh'] = self.query("High school or higher")
+        item ['bdoh'] = self.query("Bachelor's degree or higher")
+        item ['gopd'] = self.query("Graduate or professional degree")
+        item ['unemployed'] = self.query("Unemployed")
+        item ['mtttw'] = self.query("Mean travel time to work")
         yield item
 
     def query (self, textContent) :
