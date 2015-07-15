@@ -39,6 +39,14 @@ class cdSpider (scrapy.Spider):
         item ['sorp'] = self.query ("Some other race population:")
         item ['tomrp'] = self.query ("Two or more races population:")
         item ['holp'] = self.query ("Hispanic or Latino population:")
+        item ['males'] = self.query("Males:")
+        item ['females'] = self.query("Females:")
+        item ['hac'] = self.query("Houses and condos:")
+        item ['roa'] = self.query("Renter-occupied apartments:")
+        item ['coliizc'] = self.query("cost of living index in zip code ")
+        item ['la'] = self.query("Land area:")
+        item ['wa'] = self.query("Water area:")
+        item ['pd'] = self.query("Population density:")
         yield item
 
     def query (self, textContent) :

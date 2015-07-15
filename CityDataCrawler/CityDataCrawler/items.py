@@ -21,3 +21,11 @@ class CitydatacrawlerItem(scrapy.Item):
     sorp = scrapy.Field()    #Some other races population
     tomrp = scrapy.Field()    #two or more races population
     holp = scrapy.Field()    #Hispanic or Latino population
+    males = scrapy.Field()    #Number of Males
+    females = scrapy.Field()    #Number of Females
+    hac = scrapy.Field()    #Houses and condos
+    roa = scrapy.Field()    #Renter-occupied apartments
+    coliizc = scrapy.Field()    #cost of living index in zip code
+    la = scrapy.Field()    #Land area      sq. mi.
+    wa = scrapy.Field()    #water area      sq. mi.
+    pd = scrapy.Field()    #Population density     How many people per sq mile
