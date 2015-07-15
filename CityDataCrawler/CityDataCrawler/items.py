@@ -36,3 +36,19 @@ class CitydatacrawlerItem(scrapy.Item):
     gopd = scrapy.Field()    #Graduate or professional degree
     unemployed = scrapy.Field()    #Unemployed
     mtttw = scrapy.Field()    #Mean travel time to work
+    neverm = scrapy.Field()    #Never married
+    nowm = scrapy.Field()    #Now married
+    seperated = scrapy.Field()    #Separated
+    widowed = scrapy.Field()    #Widowed
+    divorced = scrapy.Field()    #Divorced
+    mhv = scrapy.Field()    #Median house value
+    rp = scrapy.Field()    #Renting percentage
+    lossmi = scrapy.Field()    #Length of stay since moving in
+    norph = scrapy.Field()    #Number of rooms per house
+    nocs = scrapy.Field()    #Number of college students
+    popwabdoh = scrapy.Field()    #Percentage of population with a bachelor's degree or higher
+    lc = scrapy.Field()    #Lesbian couples
+    gm = scrapy.Field()  #Gay men
+    mmocfuwitham = scrapy.Field()    #Median monthly owner costs for units with a mortgage
+    mmocfuwithoutam = scrapy.Field()    #Median monthly owner costs for units without a mortgage
+

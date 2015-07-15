@@ -54,6 +54,21 @@ class cdSpider (scrapy.Spider):
         item ['gopd'] = self.query("Graduate or professional degree")
         item ['unemployed'] = self.query("Unemployed")
         item ['mtttw'] = self.query("Mean travel time to work")
+        item ['neverm'] = self.query("Never married")
+        item ['nowm'] = self.query("Now married")
+        item ['seperated'] = self.query("Separated")
+        item ['widowed'] = self.query("Widowed")
+        item ['divorced'] = self.query("Divorced")
+        item ['mhv'] = self.query("Median house value")
+        item ['rp'] = self.query("Renting percentage")
+        item ['lossmi'] = self.query("Length of stay since moving in")
+        item ['norph'] = self.query("Number of rooms per house")
+        item ['nocs'] = self.query("Number of college students")
+        item ['popwabdoh'] = self.query("Percentage of population with a bachelor's degree or higher")
+        item ['lc'] = self.query("Lesbian couples")
+        item ['gm'] = self.query("Gay men")
+        item ['mmocfuwitham'] = self.query("Median monthly owner costs for units with a mortgage")
+        item ['mmocfuwithoutam'] = self.query("Median monthly owner costs for units without a mortgage")
         yield item
 
     def query (self, textContent) :
