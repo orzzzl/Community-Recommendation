@@ -20,10 +20,10 @@ class shoppingspider (scrapy.Spider):
 		selectors = response.xpath ('//li[@class="regular-search-result"]')
 		for selector in selectors:
 			item = ShoppingItem()
-			name = selector.xpath ('descendant::a[@class="biz-name"]/text()').extract()
-			addressresponse = selector.xpath('normalize-space(descendant::address)').extract()
-			rating = selector.xpath('descendant::div[@class="rating-large"]/i/@title').extract()
-			price = selector.xpath('descendant::span[@class="business-attribute price-range"]/text()').extract()
+			name = selector.xpath ('descendant::a[@class="biz-name"]/text()').extract()[0]
+			addressresponse = selector.xpath('normalize-space(descendant::address)').extract()[0]
+			rating = selector.xpath('descendant::div[@class="rating-large"]/i/@title').extract()[0]
+			price = selector.xpath('descendant::span[@class="business-attribute price-range"]/text()').extract()[0]
 			item['name'] = name
 			item['address'] = addressresponse
 			item['rating'] = rating
