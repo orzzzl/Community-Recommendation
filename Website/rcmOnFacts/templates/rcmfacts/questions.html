@@ -1,0 +1,74 @@
+{% extends 'rcmfacts/base.html' %}
+{% block title %} Questions {% endblock %}
+
+{% block otherthings %}
+    <link href="/static/question.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <h1>Please answer the questions below:</h1>
+
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+    <form action="/rcmfacts/res/" method="post">
+        {% csrf_token %}
+        <br>
+
+        <div class="form-group">
+            <label for="fun" class="col-sm-4 col-md-4 control-label text-right">What's your gender</label>
+
+            <div class="col-sm-7 col-md-7">
+                <div class="input-group">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-success">
+                            <input name="gender" value="1" type="radio">Male
+                        </label>
+                        <label class="btn btn-success">
+                            <input name="gender" value="2" type="radio">I don't want to tell
+                        </label>
+                        <label class="btn btn-success">
+                            <input name="gender" value="3" type="radio">Female
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br><br>
+        <div class="form-group">
+            <label class="col-sm-4 col-md-4 control-label text-right">May I know your marriage status</label>
+
+            <div class="col-xs-6 selectContainer">
+                <select name="marriage" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Never Married</option>
+                    <option value="2">Now Married</option>
+                    <option value="3">Seperated</option>
+                    <option value="4">Divorced</option>
+                    <option value="5">Widowed</option>
+                    <option value="6">Don't want to tell</option>
+                </select>
+            </div>
+        </div>
+<br><br>
+        <div class="form-group">
+            <label class="col-sm-4 col-md-4 control-label text-right">What's your race?</label>
+
+            <div class="col-xs-6 selectContainer">
+                <select name="race" class="form-control">
+                    <option value=""></option>
+                    <option value="1">White</option>
+                    <option value="2">Black</option>
+                    <option value="3">American Indian</option>
+                    <option value="4">Asian</option>
+                    <option value="5">Hispanic or Latino</option>
+                    <option value="6">Native Hawaiian and Pacific Islander</option>
+                    <option value="7">two or more races</option>
+                    <option value="8">Some other races</option>
+                </select>
+            </div>
+        </div>
+        <br><br><br>
+        <button type="submit" class="btn-lg btn-warning">Submit</button>
+    </form>
+
+{% endblock %}
