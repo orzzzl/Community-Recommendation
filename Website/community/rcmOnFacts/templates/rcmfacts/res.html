@@ -1,0 +1,30 @@
+{% extends "rcmfacts/base.html" %}
+{% block title %} Result {% endblock %}
+{% block otherthings %}
+    <link href="https://d373fed193e41dca2ab1842e25c5e9c0a22a69ce.googledrive.com/host/0B-aXsjxUDiDcfk0tdTlJaXJuSzViWnJkNTNfNDVTRmxOSURqNWs3V3hQdWZQZEdNSUw2Qlk/res.css" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <div class="res">
+        <ul>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Zip Code</th>
+                    <th>Similarity</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for r in res %}
+                    <tr>
+                        <th>   {{ forloop.counter }}    </th>
+                        <th>{{ r.zipThing.zipCode }}</th>
+                        <th>{{ r.simlarity }}</th>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,349 @@
+Retrieving logs...
+============= i-119b17d9 ==============
+-------------------------------------
+/var/log/eb-version-deployment.log
+-------------------------------------
+2015-07-20 12:07:29,062 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-west-2-751461709982,resources/environments/e-zapq7vxppw/_runtime/versions/manifest_1437393877326> from bucket elasticbeanstalk-us-west-2-751461709982 and prefix resources/environments/e-zapq7vxppw/_runtime/versions/
+2015-07-20 12:07:29,112 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-20 12:07:29,201 [INFO] Downloaded version label app-150720_080424 from s3 key <Key: elasticbeanstalk-us-west-2-751461709982,resources/environments/e-zapq7vxppw/_runtime/_versions/djtest/app-150720_080424>
+
+
+
+-------------------------------------
+/opt/python/log/httpd.out
+-------------------------------------
+[Mon Jul 20 12:08:23.584093 2015] [so:warn] [pid 2595] AH01574: module wsgi_module is already loaded, skipping
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Mon Jul 20 12:07:38.204329 2015] [suexec:notice] [pid 2462] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 20 12:07:38.214400 2015] [auth_digest:notice] [pid 2462] AH01757: generating secret for digest authentication ...
+[Mon Jul 20 12:07:38.215005 2015] [lbmethod_heartbeat:notice] [pid 2462] AH02282: No slotmem from mod_heartmonitor
+[Mon Jul 20 12:07:38.216605 2015] [mpm_prefork:notice] [pid 2462] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 configured -- resuming normal operations
+[Mon Jul 20 12:07:38.216623 2015] [core:notice] [pid 2462] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Jul 20 12:08:22.536153 2015] [mpm_prefork:notice] [pid 2462] AH00169: caught SIGTERM, shutting down
+[Mon Jul 20 12:08:23.588487 2015] [suexec:notice] [pid 2595] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 20 12:08:23.596925 2015] [so:warn] [pid 2595] AH01574: module wsgi_module is already loaded, skipping
+[Mon Jul 20 12:08:23.598623 2015] [auth_digest:notice] [pid 2595] AH01757: generating secret for digest authentication ...
+[Mon Jul 20 12:08:23.599132 2015] [lbmethod_heartbeat:notice] [pid 2595] AH02282: No slotmem from mod_heartmonitor
+[Mon Jul 20 12:08:23.600935 2015] [mpm_prefork:notice] [pid 2595] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 configured -- resuming normal operations
+[Mon Jul 20 12:08:23.600952 2015] [core:notice] [pid 2595] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Jul 20 12:08:26.587485 2015] [:error] [pid 2596] [remote 127.0.0.1:2720] mod_wsgi (pid=2596): Target WSGI script '/opt/python/current/app/community/community/wsgi.py' cannot be loaded as Python module.
+[Mon Jul 20 12:08:26.587550 2015] [:error] [pid 2596] [remote 127.0.0.1:2720] mod_wsgi (pid=2596): Exception occurred processing WSGI script '/opt/python/current/app/community/community/wsgi.py'.
+[Mon Jul 20 12:08:26.587573 2015] [:error] [pid 2596] [remote 127.0.0.1:2720] Traceback (most recent call last):
+[Mon Jul 20 12:08:26.587604 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/opt/python/current/app/community/community/wsgi.py", line 16, in <module>
+[Mon Jul 20 12:08:26.587675 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     application = get_wsgi_application()
+[Mon Jul 20 12:08:26.587688 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Jul 20 12:08:26.587725 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     django.setup()
+[Mon Jul 20 12:08:26.587738 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+[Mon Jul 20 12:08:26.587772 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Jul 20 12:08:26.587784 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Jul 20 12:08:26.587861 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     self._setup(name)
+[Mon Jul 20 12:08:26.587873 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Jul 20 12:08:26.587902 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     self._wrapped = Settings(settings_module)
+[Mon Jul 20 12:08:26.587911 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Jul 20 12:08:26.587923 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Jul 20 12:08:26.587932 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]   File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+[Mon Jul 20 12:08:26.588840 2015] [:error] [pid 2596] [remote 127.0.0.1:2720]     __import__(name)
+[Mon Jul 20 12:08:26.588864 2015] [:error] [pid 2596] [remote 127.0.0.1:2720] ImportError: No module named django_eb.settings
+[Mon Jul 20 12:09:38.961636 2015] [:error] [pid 2596] [remote 172.31.9.211:0] mod_wsgi (pid=2596): Target WSGI script '/opt/python/current/app/community/community/wsgi.py' cannot be loaded as Python module.
+[Mon Jul 20 12:09:38.961671 2015] [:error] [pid 2596] [remote 172.31.9.211:0] mod_wsgi (pid=2596): Exception occurred processing WSGI script '/opt/python/current/app/community/community/wsgi.py'.
+[Mon Jul 20 12:09:38.961691 2015] [:error] [pid 2596] [remote 172.31.9.211:0] Traceback (most recent call last):
+[Mon Jul 20 12:09:38.961715 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/current/app/community/community/wsgi.py", line 16, in <module>
+[Mon Jul 20 12:09:38.961750 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     application = get_wsgi_application()
+[Mon Jul 20 12:09:38.961760 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Jul 20 12:09:38.961775 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     django.setup()
+[Mon Jul 20 12:09:38.961784 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+[Mon Jul 20 12:09:38.961797 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Jul 20 12:09:38.961806 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Jul 20 12:09:38.961819 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     self._setup(name)
+[Mon Jul 20 12:09:38.961827 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Jul 20 12:09:38.961839 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     self._wrapped = Settings(settings_module)
+[Mon Jul 20 12:09:38.961847 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Jul 20 12:09:38.961860 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Jul 20 12:09:38.961868 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+[Mon Jul 20 12:09:38.961880 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     __import__(name)
+[Mon Jul 20 12:09:38.961898 2015] [:error] [pid 2596] [remote 172.31.9.211:0] ImportError: No module named django_eb.settings
+[Mon Jul 20 12:09:56.748853 2015] [:error] [pid 2596] [remote 172.31.9.211:0] mod_wsgi (pid=2596): Target WSGI script '/opt/python/current/app/community/community/wsgi.py' cannot be loaded as Python module.
+[Mon Jul 20 12:09:56.748883 2015] [:error] [pid 2596] [remote 172.31.9.211:0] mod_wsgi (pid=2596): Exception occurred processing WSGI script '/opt/python/current/app/community/community/wsgi.py'.
+[Mon Jul 20 12:09:56.748905 2015] [:error] [pid 2596] [remote 172.31.9.211:0] Traceback (most recent call last):
+[Mon Jul 20 12:09:56.748927 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/current/app/community/community/wsgi.py", line 16, in <module>
+[Mon Jul 20 12:09:56.748956 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     application = get_wsgi_application()
+[Mon Jul 20 12:09:56.748966 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Jul 20 12:09:56.748981 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     django.setup()
+[Mon Jul 20 12:09:56.748990 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+[Mon Jul 20 12:09:56.749003 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Jul 20 12:09:56.749023 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Jul 20 12:09:56.749037 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     self._setup(name)
+[Mon Jul 20 12:09:56.749045 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Jul 20 12:09:56.749057 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     self._wrapped = Settings(settings_module)
+[Mon Jul 20 12:09:56.749065 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Jul 20 12:09:56.749076 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Jul 20 12:09:56.749084 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+[Mon Jul 20 12:09:56.749096 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     __import__(name)
+[Mon Jul 20 12:09:56.749114 2015] [:error] [pid 2596] [remote 172.31.9.211:0] ImportError: No module named django_eb.settings
+[Mon Jul 20 12:10:01.373543 2015] [:error] [pid 2596] [remote 172.31.9.211:0] mod_wsgi (pid=2596): Target WSGI script '/opt/python/current/app/community/community/wsgi.py' cannot be loaded as Python module.
+[Mon Jul 20 12:10:01.373576 2015] [:error] [pid 2596] [remote 172.31.9.211:0] mod_wsgi (pid=2596): Exception occurred processing WSGI script '/opt/python/current/app/community/community/wsgi.py'.
+[Mon Jul 20 12:10:01.373600 2015] [:error] [pid 2596] [remote 172.31.9.211:0] Traceback (most recent call last):
+[Mon Jul 20 12:10:01.373624 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/current/app/community/community/wsgi.py", line 16, in <module>
+[Mon Jul 20 12:10:01.373659 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     application = get_wsgi_application()
+[Mon Jul 20 12:10:01.373670 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Jul 20 12:10:01.373685 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     django.setup()
+[Mon Jul 20 12:10:01.373694 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+[Mon Jul 20 12:10:01.373708 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Jul 20 12:10:01.373717 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Jul 20 12:10:01.373732 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     self._setup(name)
+[Mon Jul 20 12:10:01.373740 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Jul 20 12:10:01.373753 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     self._wrapped = Settings(settings_module)
+[Mon Jul 20 12:10:01.373762 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/opt/python/run/venv/lib/python2.7/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Jul 20 12:10:01.373775 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Jul 20 12:10:01.373784 2015] [:error] [pid 2596] [remote 172.31.9.211:0]   File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+[Mon Jul 20 12:10:01.373796 2015] [:error] [pid 2596] [remote 172.31.9.211:0]     __import__(name)
+[Mon Jul 20 12:10:01.373816 2015] [:error] [pid 2596] [remote 172.31.9.211:0] ImportError: No module named django_eb.settings
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2015-07-20 12:07:36,434 CRIT Supervisor running as root (no user in config file)
+2015-07-20 12:07:36,458 INFO RPC interface 'supervisor' initialized
+2015-07-20 12:07:36,458 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-07-20 12:07:36,458 INFO supervisord started with pid 2382
+2015-07-20 12:07:37,460 INFO spawned: 'httpd' with pid 2462
+2015-07-20 12:07:38,462 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-20 12:08:22,547 INFO stopped: httpd (exit status 0)
+2015-07-20 12:08:23,552 INFO spawned: 'httpd' with pid 2595
+2015-07-20 12:08:24,584 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+127.0.0.1 (-) - - [20/Jul/2015:12:08:26 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+172.31.9.211 (98.14.100.125) - - [20/Jul/2015:12:09:38 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+172.31.9.211 (98.14.100.125) - - [20/Jul/2015:12:09:56 +0000] "GET /rcmfacts HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+172.31.9.211 (98.14.100.125) - - [20/Jul/2015:12:10:01 +0000] "GET /rcmfacts HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+::1 (-) - - [20/Jul/2015:12:10:56 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 (-) - - [20/Jul/2015:12:11:01 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 (-) - - [20/Jul/2015:12:11:02 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 (-) - - [20/Jul/2015:12:11:31 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/migrations/0004_auto_20150719_1929.py  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/migrations/0004_auto_20150719_1929.pyc  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/migrations/0005_auto_20150720_0048.py  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/migrations/0005_auto_20150720_0048.pyc  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/migrations/__init__.py  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/migrations/__init__.pyc  
+     creating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/__init__.py  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/__init__.pyc  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/rcmAlgorithm.py  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/rcmAlgorithm.pyc  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/tools.py  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/RcmSystem/tools.pyc  
+     creating: /opt/python/ondeck/app/community/rcmOnFacts/static/
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/static/.DS_Store  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/static/cover.css  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/static/index.css  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/static/main.css  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/static/question.css  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/static/res.css  
+     creating: /opt/python/ondeck/app/community/rcmOnFacts/templates/admin/
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/templates/admin/base_site.html  
+     creating: /opt/python/ondeck/app/community/rcmOnFacts/templates/rcmfacts/
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/templates/rcmfacts/base.html  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/templates/rcmfacts/index.html  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/templates/rcmfacts/questions.html  
+    inflating: /opt/python/ondeck/app/community/rcmOnFacts/templates/rcmfacts/res.html  
+[2015-07-20T12:08:04.761Z] INFO  [2471]  - [CMD-Startup/StartupStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2015-07-20T12:08:14.839Z] INFO  [2471]  - [CMD-Startup/StartupStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  You are using pip version 7.0.3, however version 7.1.0 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  Collecting Django==1.8.3 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Downloading Django-1.8.3-py2.py3-none-any.whl (6.2MB)
+  Requirement already satisfied (use --upgrade to upgrade): wsgiref==0.1.2 in /usr/lib64/python2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+  Installing collected packages: Django
+  Successfully installed Django-1.8.3
+[2015-07-20T12:08:14.839Z] INFO  [2471]  - [CMD-Startup/StartupStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2015-07-20T12:08:16.158Z] INFO  [2471]  - [CMD-Startup/StartupStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2015-07-20T12:08:16.158Z] INFO  [2471]  - [CMD-Startup/StartupStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2015-07-20T12:08:16.158Z] INFO  [2471]  - [CMD-Startup/StartupStage0/EbExtensionPostBuild] : Starting activity...
+[2015-07-20T12:08:16.861Z] INFO  [2471]  - [CMD-Startup/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2015-07-20T12:08:16.861Z] INFO  [2471]  - [CMD-Startup/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2015-07-20T12:08:16.876Z] INFO  [2471]  - [CMD-Startup/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2015-07-20T12:08:16.876Z] INFO  [2471]  - [CMD-Startup/StartupStage0/InfraCleanEbExtension] : Starting activity...
+[2015-07-20T12:08:16.879Z] INFO  [2471]  - [CMD-Startup/StartupStage0/InfraCleanEbExtension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2015-07-20T12:08:16.879Z] INFO  [2471]  - [CMD-Startup/StartupStage0] : Completed activity. Result:
+  Command CMD-Startup stage 0 completed.
+[2015-07-20T12:08:16.879Z] INFO  [2471]  - [CMD-Startup] : Completed activity. Result:
+  Command CMD-Startup(stage 0) succeeded.
+[2015-07-20T12:08:21.780Z] INFO  [2579]  - [CMD-Startup] : Starting activity...
+[2015-07-20T12:08:21.783Z] INFO  [2579]  - [CMD-Startup/StartupStage1] : Starting activity...
+[2015-07-20T12:08:21.783Z] INFO  [2579]  - [CMD-Startup/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2015-07-20T12:08:21.783Z] INFO  [2579]  - [CMD-Startup/StartupStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2015-07-20T12:08:26.594Z] INFO  [2579]  - [CMD-Startup/StartupStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 2595, uptime 0:00:03
+[2015-07-20T12:08:26.594Z] INFO  [2579]  - [CMD-Startup/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2015-07-20T12:08:26.594Z] INFO  [2579]  - [CMD-Startup/StartupStage1/AppDeployPostHook] : Starting activity...
+[2015-07-20T12:08:26.594Z] INFO  [2579]  - [CMD-Startup/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2015-07-20T12:08:26.594Z] INFO  [2579]  - [CMD-Startup/StartupStage1/PostInitHook] : Starting activity...
+[2015-07-20T12:08:26.594Z] INFO  [2579]  - [CMD-Startup/StartupStage1/PostInitHook/01processmgrstart.sh] : Starting activity...
+[2015-07-20T12:08:26.598Z] INFO  [2579]  - [CMD-Startup/StartupStage1/PostInitHook/01processmgrstart.sh] : Completed activity. Result:
+  + pgrep supervisord
+  2382
+[2015-07-20T12:08:26.598Z] INFO  [2579]  - [CMD-Startup/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2015-07-20T12:08:26.598Z] INFO  [2579]  - [CMD-Startup/StartupStage1] : Completed activity. Result:
+  Command CMD-Startup stage 1 completed.
+[2015-07-20T12:08:26.598Z] INFO  [2579]  - [CMD-Startup/AddonsAfter] : Starting activity...
+[2015-07-20T12:08:26.598Z] INFO  [2579]  - [CMD-Startup/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2015-07-20T12:08:26.599Z] INFO  [2579]  - [CMD-Startup/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2015-07-20T12:08:26.726Z] INFO  [2579]  - [CMD-Startup/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2015-07-20T12:08:26.726Z] INFO  [2579]  - [CMD-Startup/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2015-07-20T12:08:26.726Z] INFO  [2579]  - [CMD-Startup/AddonsAfter] : Completed activity.
+[2015-07-20T12:08:26.726Z] INFO  [2579]  - [CMD-Startup] : Completed activity. Result:
+  Command CMD-Startup(stage 1) succeeded.
+[2015-07-20T12:11:19.141Z] INFO  [2666]  - [CMD-TailLogs] : Starting activity...
+[2015-07-20T12:11:19.619Z] INFO  [2666]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-07-20T12:11:19.619Z] INFO  [2666]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-07-20T12:11:19.619Z] INFO  [2666]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-07-20T12:11:19.619Z] INFO  [2666]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2015-07-20T12:11:19.851Z] INFO  [2666]  - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
+[2015-07-20T12:11:19.851Z] INFO  [2666]  - [CMD-TailLogs/TailLogs] : Completed activity. Result:
+  Command CMD-TailLogs stage 0 completed.
+[2015-07-20T12:11:19.851Z] INFO  [2666]  - [CMD-TailLogs/AddonsAfter] : Starting activity...
+[2015-07-20T12:11:19.852Z] INFO  [2666]  - [CMD-TailLogs/AddonsAfter] : Completed activity.
+[2015-07-20T12:11:19.852Z] INFO  [2666]  - [CMD-TailLogs] : Completed activity. Result:
+  Command CMD-TailLogs succeeded.
+[2015-07-20T12:11:43.782Z] INFO  [2686]  - [CMD-TailLogs] : Starting activity...
+[2015-07-20T12:11:44.008Z] INFO  [2686]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-07-20T12:11:44.008Z] INFO  [2686]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-07-20T12:11:44.008Z] INFO  [2686]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-07-20T12:11:44.008Z] INFO  [2686]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2015-07-20T12:08:03.685Z] INFO  [2471]  : Instance is Leader.
+[2015-07-20T12:08:03.686Z] DEBUG [2471]  : Loaded 4 actions for stage 0.
+[2015-07-20T12:08:03.686Z] INFO  [2471]  : Running 1 of 4 actions: EbExtensionPreBuild...
+[2015-07-20T12:08:03.955Z] INFO  [2471]  : Running 2 of 4 actions: AppDeployPreHook...
+[2015-07-20T12:08:16.158Z] INFO  [2471]  : Running 3 of 4 actions: EbExtensionPostBuild...
+[2015-07-20T12:08:16.876Z] INFO  [2471]  : Running 4 of 4 actions: InfraCleanEbExtension...
+[2015-07-20T12:08:16.879Z] INFO  [2471]  : Command CMD-Startup(stage 0) succeeded!
+[2015-07-20T12:08:16.879Z] INFO  [2471]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-07-20T12:08:21.778Z] DEBUG [2579]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-20T12:08:21.778Z] INFO  [2579]  : Received command CMD-Startup(stage 1): {"command_name":"CMD-Startup","stage_num":1,"request_id":"7ab7cbd6-2ed7-11e5-b8b7-01483b1f9123","stage_name":"02_enact","resource_name":"AWSEBAutoScalingGroup","is_last_stage":true,"instance_ids":["i-119b17d9"],"command_timeout":"600","api_version":"1.0"}
+[2015-07-20T12:08:21.778Z] DEBUG [2579]  : Checking if the command processor should execute...
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Checking whether the command is applicable to instance (i-119b17d9)..
+[2015-07-20T12:08:21.779Z] INFO  [2579]  : Command is applicable to this instance (i-119b17d9)..
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Checking if the received command stage is valid..
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Stage_num=1. Checking previous stage..
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Opening previous stage file /var/lib/eb-tools/data/stages/7ab7cbd6-2ed7-11e5-b8b7-01483b1f9123..
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Previous stage file contains: 0.
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Returning 0..
+[2015-07-20T12:08:21.779Z] INFO  [2579]  : Previous stage (0) is one less that current stage (1). Valid stage..
+[2015-07-20T12:08:21.779Z] INFO  [2579]  : Command processor should execute command.
+[2015-07-20T12:08:21.779Z] DEBUG [2579]  : Storing current stage..
+[2015-07-20T12:08:21.779Z] INFO  [2579]  : This was last stage for the command. Removing saved stage info for request..
+[2015-07-20T12:08:21.780Z] INFO  [2579]  : Executing command: CMD-Startup(stage 1)...
+[2015-07-20T12:08:21.780Z] DEBUG [2579]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-20T12:08:21.780Z] DEBUG [2579]  : Refreshing metadata..
+[2015-07-20T12:08:21.780Z] DEBUG [2579]  : Refreshed environment metadata.
+[2015-07-20T12:08:21.781Z] DEBUG [2579]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-20T12:08:21.781Z] DEBUG [2579]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-20T12:08:21.782Z] INFO  [2579]  : Found enabled addons: ["logpublish"].
+[2015-07-20T12:08:21.783Z] INFO  [2579]  : Updating Command definition of addon logpublish.
+[2015-07-20T12:08:21.783Z] DEBUG [2579]  : Loaded definition of Command CMD-Startup.
+[2015-07-20T12:08:21.783Z] INFO  [2579]  : Executing command CMD-Startup activities...
+[2015-07-20T12:08:21.783Z] DEBUG [2579]  : Setting environment variables..
+[2015-07-20T12:08:21.783Z] DEBUG [2579]  : Running stages of Command CMD-Startup from stage 1 to stage 1...
+[2015-07-20T12:08:21.783Z] INFO  [2579]  : Running stage 1 of command CMD-Startup...
+[2015-07-20T12:08:21.783Z] DEBUG [2579]  : Loaded 3 actions for stage 1.
+[2015-07-20T12:08:21.783Z] INFO  [2579]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2015-07-20T12:08:26.594Z] INFO  [2579]  : Running 2 of 3 actions: AppDeployPostHook...
+[2015-07-20T12:08:26.594Z] INFO  [2579]  : Running 3 of 3 actions: PostInitHook...
+[2015-07-20T12:08:26.598Z] INFO  [2579]  : Running AddonsAfter for command CMD-Startup...
+[2015-07-20T12:08:26.726Z] INFO  [2579]  : Command CMD-Startup(stage 1) succeeded!
+[2015-07-20T12:08:26.726Z] INFO  [2579]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-07-20T12:11:19.139Z] DEBUG [2666]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-20T12:11:19.139Z] INFO  [2666]  : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAJQ2X4DEUE47RUCRA\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi03NTE0NjE3MDk5ODIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA3LTIwVDEyOjQxOjE3LjMwNVoifQ==\",\"security_token\":\"AQoDYXdzEHUawAJuCLxpLxX+klSBo66afftgmuPYG9XQbibQR+JdwRnKcrDrPXbvgVK4MJ9086rJ8Cy0F\\\/fN9arSR6K4gqFC3wW3zes1PBfLbRvI9I5CK0XeyLSPNan9twLXGHYyA5EaerLJQPQOYTKj68f6fswq\\\/bEAze2xgbBC4uq6qB1GEfNKngtcq3MIS1jum59iuECJ0OpBeZTd3QodC\\\/eEzrCusJ0ETub70oeyLiNLbCt+X\\\/24NLMCDf3Tzc6NoNGfaxOgwhweF+tyJjpkoxg9K1ZPM1mwcgaP\\\/LDpVc3d323ijAFr4ih+cSHc+DToO5yfdb8wHPP+njl8IqcE6rYXu842nHS5tQAk6RJQqaUKtXAdNpMoHk0GNuhX4TkCfkEOwD8NLlfeJVXhzNGv0lbI1zvFi\\\/eUaTcteL7x+K3AuMKVsLy+7yDlyrOtBQ==\",\"signature\":\"blarUvYcOrUinwNZFaB0dp4vlK4=\"}","request_id":"6c606b9e-2ed8-11e5-ab61-c15b0339875c","resource_name":"AWSEBAutoScalingGroup","data":"6c606b9e-2ed8-11e5-ab61-c15b0339875c","instance_ids":["i-119b17d9"],"command_timeout":"600","api_version":"1.0"}
+[2015-07-20T12:11:19.139Z] DEBUG [2666]  : Checking if the command processor should execute...
+[2015-07-20T12:11:19.141Z] DEBUG [2666]  : Checking whether the command is applicable to instance (i-119b17d9)..
+[2015-07-20T12:11:19.141Z] INFO  [2666]  : Command is applicable to this instance (i-119b17d9)..
+[2015-07-20T12:11:19.141Z] DEBUG [2666]  : Checking if the received command stage is valid..
+[2015-07-20T12:11:19.141Z] INFO  [2666]  : No stage_num in command. Valid stage..
+[2015-07-20T12:11:19.141Z] INFO  [2666]  : Command processor should execute command.
+[2015-07-20T12:11:19.141Z] DEBUG [2666]  : Storing current stage..
+[2015-07-20T12:11:19.141Z] DEBUG [2666]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-07-20T12:11:19.141Z] INFO  [2666]  : Executing command: CMD-TailLogs...
+[2015-07-20T12:11:19.141Z] DEBUG [2666]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-20T12:11:19.141Z] DEBUG [2666]  : Refreshing metadata..
+[2015-07-20T12:11:19.617Z] DEBUG [2666]  : Refreshed environment metadata.
+[2015-07-20T12:11:19.617Z] DEBUG [2666]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-20T12:11:19.617Z] DEBUG [2666]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-20T12:11:19.618Z] INFO  [2666]  : Found enabled addons: ["logpublish"].
+[2015-07-20T12:11:19.619Z] INFO  [2666]  : Updating Command definition of addon logpublish.
+[2015-07-20T12:11:19.619Z] DEBUG [2666]  : Loaded definition of Command CMD-TailLogs.
+[2015-07-20T12:11:19.619Z] INFO  [2666]  : Executing command CMD-TailLogs activities...
+[2015-07-20T12:11:19.619Z] DEBUG [2666]  : Setting environment variables..
+[2015-07-20T12:11:19.619Z] INFO  [2666]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-07-20T12:11:19.619Z] DEBUG [2666]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-07-20T12:11:19.619Z] INFO  [2666]  : Running stage 0 of command CMD-TailLogs...
+[2015-07-20T12:11:19.619Z] DEBUG [2666]  : Loaded 1 actions for stage 0.
+[2015-07-20T12:11:19.619Z] INFO  [2666]  : Running 1 of 1 actions: TailLogs...
+[2015-07-20T12:11:19.851Z] INFO  [2666]  : Running AddonsAfter for command CMD-TailLogs...
+[2015-07-20T12:11:19.852Z] INFO  [2666]  : Command CMD-TailLogs succeeded!
+[2015-07-20T12:11:19.852Z] INFO  [2666]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-119b17d9] Successfully finished tailing 7 log(s)","severity":"INFO","timestamp":1437394279852}]}]}
+[2015-07-20T12:11:43.780Z] DEBUG [2686]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-20T12:11:43.781Z] INFO  [2686]  : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAJ5ZQJREOR5BNVIDQ\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi03NTE0NjE3MDk5ODIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA3LTIwVDEyOjQxOjQyLjE0NloifQ==\",\"security_token\":\"AQoDYXdzEHUawAJjihqty5qvt00Cipe7hC+i170ZKT46tsYkL7smigXCkBbivdAyJcNqU\\\/ZCJaKnwptLT8XPcTDhn83bLOH\\\/aj9GpkVe7f1RbsWo0SEeeznx7S64DIGYPLXAAeFqjolIg7LHSpGEMEuDlyrrWvQGGe1wC9TJkYv74kuKE91wOSEISYq+a8YlSArrbgdD9tU5exT4dEo9CSYxI3mYkR5rOOEa5Sdfgwt7GI6y94wGDfLIbfpzTNzZlTirEn62\\\/Wn6x6mwLlAOZ1bSipH48qA0B7mYJFQagoPjhXpdIy2o9J7t\\\/dFItVheTeW\\\/4vW0c\\\/I42cFCB8OfWFgP+tWv7bBWyjgjqF\\\/1w0QKbp6pkuo7VtEJXzbqwLY\\\/1j3RQnthTCq5oJQ7zOOq1n6IynK2h4r2YIHC3tA+MhtcZcHBBTPBHNGXECD9yrOtBQ==\",\"signature\":\"Xqh8dTFUjFNiQFzxOHr93zfCUo8=\"}","request_id":"7b378df1-2ed8-11e5-ab61-c15b0339875c","resource_name":"AWSEBAutoScalingGroup","data":"7b378df1-2ed8-11e5-ab61-c15b0339875c","instance_ids":["i-119b17d9"],"command_timeout":"600","api_version":"1.0"}
+[2015-07-20T12:11:43.781Z] DEBUG [2686]  : Checking if the command processor should execute...
+[2015-07-20T12:11:43.782Z] DEBUG [2686]  : Checking whether the command is applicable to instance (i-119b17d9)..
+[2015-07-20T12:11:43.782Z] INFO  [2686]  : Command is applicable to this instance (i-119b17d9)..
+[2015-07-20T12:11:43.782Z] DEBUG [2686]  : Checking if the received command stage is valid..
+[2015-07-20T12:11:43.782Z] INFO  [2686]  : No stage_num in command. Valid stage..
+[2015-07-20T12:11:43.782Z] INFO  [2686]  : Command processor should execute command.
+[2015-07-20T12:11:43.782Z] DEBUG [2686]  : Storing current stage..
+[2015-07-20T12:11:43.782Z] DEBUG [2686]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-07-20T12:11:43.783Z] INFO  [2686]  : Executing command: CMD-TailLogs...
+[2015-07-20T12:11:43.783Z] DEBUG [2686]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-20T12:11:43.783Z] DEBUG [2686]  : Refreshing metadata..
+[2015-07-20T12:11:44.006Z] DEBUG [2686]  : Refreshed environment metadata.
+[2015-07-20T12:11:44.006Z] DEBUG [2686]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-20T12:11:44.006Z] DEBUG [2686]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-20T12:11:44.007Z] INFO  [2686]  : Found enabled addons: ["logpublish"].
+[2015-07-20T12:11:44.008Z] INFO  [2686]  : Updating Command definition of addon logpublish.
+[2015-07-20T12:11:44.008Z] DEBUG [2686]  : Loaded definition of Command CMD-TailLogs.
+[2015-07-20T12:11:44.008Z] INFO  [2686]  : Executing command CMD-TailLogs activities...
+[2015-07-20T12:11:44.008Z] DEBUG [2686]  : Setting environment variables..
+[2015-07-20T12:11:44.008Z] INFO  [2686]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-07-20T12:11:44.008Z] DEBUG [2686]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-07-20T12:11:44.008Z] INFO  [2686]  : Running stage 0 of command CMD-TailLogs...
+[2015-07-20T12:11:44.008Z] DEBUG [2686]  : Loaded 1 actions for stage 0.
+[2015-07-20T12:11:44.008Z] INFO  [2686]  : Running 1 of 1 actions: TailLogs...
+
+
+

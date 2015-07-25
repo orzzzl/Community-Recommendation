@@ -1,0 +1,18 @@
+.btn-success {
+  background-image: None;
+  border-color: white;
+  background-color: white;
+  color: green;
+}
+
+h1 {
+  margin-top: 18vh;
+}
+
+.btn-group {
+    background-image: none;
+}
+
+strong {
+    color: red;
+}
