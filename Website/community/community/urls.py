@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^rcmuser/', include('rcmOnUser.urls', namespace='rcmuser')),
     url(r'^rcmfacts/', include ('rcmOnFacts.urls', namespace='rcmfacts')),
     url(r'^admin/', include (admin.site.urls)),
 ]
