@@ -1,3 +1,27 @@
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
+.heading {
+  position: relative;
+  text-align: center;
+}
+
+.inner {
+  position: absolute;
+  top: 40%;
+}
+
+
+.btn {
+    position: relative;
+    left: 48%;
+}
+
+.btn-warning {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
+    color: white;
+    background-color: black;
+    border-color: black;
+}

@@ -1,56 +1,85 @@
 {% extends 'rcmfacts/base.html' %}
 {% block title %} Preference {% endblock %}
 {% block otherthings %}
-    <link href="/static/preference.css" rel="stylesheet">
+    <link href="/static/preference.css"
+          rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/4.10.3/bootstrap-slider.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/4.10.3/css/bootstrap-slider.css"
           rel="stylesheet">
 {% endblock %}
 
 {% block content %}
+
     <div class="pre">
         <h4>Please select your preference by drag the sliders below, select a number to represent how much you cares for
             the following fields:</h4>
         </br></br>
         <form action="/rcmuser/res/" method="post">
             {% csrf_token %}
-            <div class="item">Eating:</div>
-            <input name="eating" id="eating" data-slider-id='mySlider' type="text" data-slider-min="0"
-                   data-slider-max="100" data-slider-step="1" value="0"
-                   data-slider-value="0">
+            <div class="form-group">
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Eating</label>
+
+                <div class="col-sm-7 col-md-7">
+                    <input name="eating" id="eating" data-slider-id='mySlider' type="text" data-slider-min="0"
+                           data-slider-max="100" data-slider-step="1" value="0"
+                           data-slider-value="0">
+                </div>
+            </div>
+
             </br></br></br>
-            <div class="item"> Shopping:</div>
-            <input name="shopping" id="shopping" data-slider-id='mySlider' type="text"
-                   data-slider-min="0" data-slider-max="100" value="0"
-                   data-slider-step="1"
-                   data-slider-value="0">
+            <div class="form-group">
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">shopping</label>
+
+                <div class="col-sm-7 col-md-7">
+                    <input name="shopping" id="shopping" data-slider-id='mySlider' type="text" data-slider-min="0"
+                           data-slider-max="100" data-slider-step="1" value="0"
+                           data-slider-value="0">
+                </div>
+            </div>
             </br></br></br>
-            <div class="item"> Health:</div>
-            <input name="health" id="health" data-slider-id='mySlider' type="text" data-slider-min="0"
-                   data-slider-max="100"
-                   data-slider-step="1" value="0"
-                   data-slider-value="0">
+                                    <div class="form-group">
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">School:</label>
+
+                <div class="col-sm-7 col-md-7">
+                    <input name="school" id="school" data-slider-id='mySlider' type="text" data-slider-min="0"
+                           data-slider-max="100" data-slider-step="1" value="0"
+                           data-slider-value="0">
+                </div>
+            </div>
             </br></br></br>
-            <div class="item"> Schools:</div>
-            <input name="school" id="school" data-slider-id='mySlider' type="text"
-                   data-slider-min="0" data-slider-max="100"
-                   data-slider-step="1" value="0"
-                   data-slider-value="0">
+                        <div class="form-group">
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Health</label>
+
+                <div class="col-sm-7 col-md-7">
+                    <input name="health" id="health" data-slider-id='mySlider' type="text" data-slider-min="0"
+                           data-slider-max="100" data-slider-step="1" value="0"
+                           data-slider-value="0">
+                </div>
+            </div>
             </br></br></br>
-            <div class="item"> Security:</div>
-            <input name="security" id="security" data-slider-id='mySlider' type="text"
-                   data-slider-min="0" data-slider-max="100"
-                   data-slider-step="1" value="0"
-                   data-slider-value="0">
+                        <div class="form-group">
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Security:</label>
+
+                <div class="col-sm-7 col-md-7">
+                    <input name="security" id="security" data-slider-id='mySlider' type="text" data-slider-min="0"
+                           data-slider-max="100" data-slider-step="1" value="0"
+                           data-slider-value="0">
+                </div>
+            </div>
             </br></br></br>
-            <div class="item"> Time to work:</div>
-            <input name="transportation" id="transportation" data-slider-id='mySlider' type="text"
-                   data-slider-min="0" data-slider-max="100"
-                   data-slider-step="1" value="0"
-                   data-slider-value="0">
+                        <div class="form-group">
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Time to work</label>
+
+                <div class="col-sm-7 col-md-7">
+                    <input name="transportation" id="transportation" data-slider-id='mySlider' type="text" data-slider-min="0"
+                           data-slider-max="100" data-slider-step="1" value="0"
+                           data-slider-value="0">
+                </div>
+            </div>
             </br></br></br>
-            <button type="submit" class="btn-lg btn-warning">Submit</button>
+            <button type="submit" class="btn btn-lg btn-warning">Submit</button>
         </form>
     </div>
-    <script crossorigin="anonymous" src="/static/preference.js"></script>
+    <script crossorigin="anonymous"
+            src="https://d373fed193e41dca2ab1842e25c5e9c0a22a69ce.googledrive.com/host/0B-aXsjxUDiDcfk0tdTlJaXJuSzViWnJkNTNfNDVTRmxOSURqNWs3V3hQdWZQZEdNSUw2Qlk/preference.js"></script>
 {% endblock %}

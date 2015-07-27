@@ -14,3 +14,8 @@ padding-left: 2vw;
     float: left;
     width: 100px;
 }
+
+.btn {
+    position: relative;
+    left: 48%;
+}
