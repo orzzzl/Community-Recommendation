@@ -1,0 +1,16 @@
+.pre {
+    margin-top: 18vh;
+}
+#mySlider .slider-selection {
+	background: #BABABA;
+}
+
+#ex6SliderVal {
+padding-left: 2vw;
+}
+
+.item {
+    display: inline;
+    float: left;
+    width: 100px;
+}
