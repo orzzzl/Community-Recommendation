@@ -201,5 +201,5 @@ class algorithm:
             }
             res.append(tmp)
         res.sort(key=lambda zipObj: zipObj ["simlarity"], reverse=True)
-        return res [0: 10]
+        return res [0: 9]
 

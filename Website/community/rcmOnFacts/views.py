@@ -19,4 +19,4 @@ def res(request):
             'error_message': "You didn't select a choice.",
         })
     else:
-        return render(request, 'rcmfacts/res.html', {'res': res})
+        return render(request, 'rcmfacts/res.html', {'res': res, "choices": choices})

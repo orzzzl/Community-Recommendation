@@ -1,31 +1,78 @@
 {% extends "rcmfacts/base.html" %}
 {% block title %} Result {% endblock %}
 {% block otherthings %}
-    <link href="https://d373fed193e41dca2ab1842e25c5e9c0a22a69ce.googledrive.com/host/0B-aXsjxUDiDcfk0tdTlJaXJuSzViWnJkNTNfNDVTRmxOSURqNWs3V3hQdWZQZEdNSUw2Qlk/res.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.1.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.css" rel="stylesheet">
 {% endblock %}
 {% block content %}
-    <div class="res">
-        <ul>
-            <table class="table table-striped">
-                <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Zip Code</th>
-                    <th>Similarity</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for r in res %}
-                    <tr>
-                        <th>   {{ forloop.counter }}    </th>
-                        <th>{{ r.zipThing.zipCode }}</th>
-                        <th>{{ r.simlarity }}</th>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        </ul>
-    <br>
-    <a href = "/rcmuser/preference">Provide your preference to get better results.</a>
+    <div class="res" ng-app="res_app" ng-controller="AccordionDemoCtrl">
+        <label class="checkbox">
+            <input type="checkbox" ng-model="oneAtATime">
+            Open only one at a time
+        </label>
+        <accordion close-others="oneAtATime">
+            {% for r in res %}
+                <accordion-group is-open="status.open{{ forloop.counter }}">
+                    <accordion-heading>
+                        #{{ forloop.counter }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zip
+                        Code: {{ r.zipThing.zipCode }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Similarity: {{ r.simlarity }}
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': status.open{{ forloop.counter }}, 'glyphicon-chevron-right': !status.open{{ forloop.counter }}}"></i>
+                    </accordion-heading>
+                    Male Percentage: {{ r.zipThing.malePercentage }} <br>
+                    Female Percentage: {{ r.zipThing.femalePercentage }} <br>
+                    Gay Percentage: {{ r.zipThing.gay }} <br>
+                    Lesbian Percentage: {{ r.zipThing.lesbian }} <br>
+                    Percentage of Rent: {{ r.zipThing.rent }} <br><br>
+                    Asian Percentage: {{ r.zipThing.asian }} <br>
+                    White Percentage: {{ r.zipThing.white }} <br>
+                    Black Percentage: {{ r.zipThing.black }} <br>
+                    American Indian Percentage: {{ r.zipThing.americanIndian }} <br>
+                    Hispanic or Latino Percentage: {{ r.zipThing.hispanic }} <br>
+                    Native Hawaiian and Pacific Islander Percentage: {{ r.zipThing.hawaiian }} <br>
+                    Two or more races Percentage: {{ r.zipThing.twoOrMore }} <br>
+                    Some other races Percentage: {{ r.zipThing.otherRace }} <br><br>
+                    Percentage of Never Married: {{ r.zipThing.neverMarried }} <br>
+                    Percentage of Currently Married: {{ r.zipThing.nowMarried }} <br>
+                    Percentage of Separated: {{ r.zipThing.seperated }} <br>
+                    Percentage of Divorced: {{ r.zipThing.divorced }} <br>
+                    Percentage of Widowed: {{ r.zipThing.widowed }} <br><br>
+                    Percentage of No Education: {{ r.zipThing.noEducation }} <br>
+                    Percentage of High School: {{ r.zipThing.highSchool }} <br>
+                    Percentage of Bachelor: {{ r.zipThing.bachelor }} <br>
+                    Percentage of Graduates or Higher: {{ r.zipThing.master }} <br>
+
+                </accordion-group>
+            {% endfor %}
+        </accordion>
+
+        {#    #}
+        {#        <ul>#}
+        {#            <table class="table table-striped">#}
+        {#                <thead>#}
+        {#                <tr>#}
+        {#                    <th>#</th>#}
+        {#                    <th>Zip Code</th>#}
+        {#                    <th>Similarity</th>#}
+        {#                </tr>#}
+        {#                </thead>#}
+        {#                <tbody>#}
+        {#                {% for r in res %}#}
+        {#                    <tr>#}
+        {#                        <th>   {{ forloop.counter }}    </th>#}
+        {#                        <th>{{ r.zipThing.zipCode }}</th>#}
+        {#                        <th>{{ r.simlarity }}</th>#}
+        {#                    </tr>#}
+        {#                {% endfor %}#}
+        {#                </tbody>#}
+        {#            </table>#}
+        {#        </ul>#}
+        {#    <br>#}
+        <a href="/rcmuser/preference">Provide your preference to get better results.</a>
+
+        <script src="/static/res.js"></script>
     </div>
 {% endblock %}
