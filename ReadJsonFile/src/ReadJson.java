@@ -10,12 +10,13 @@ import java.io.InputStreamReader;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 public class ReadJson {
-	private static final String filePath1 = "restaurantData.json";
-	private static final String filePath2 = "shoppingData.json";
+	private static final String filePath1 = "RestaurantData.json";
+	private static final String filePath2 = "ShoppingData.json";
 
 	public static String modifyAddress(String address) {
 		String[] temp = address.split(" ");
@@ -31,7 +32,7 @@ public class ReadJson {
 
 	public static void createNewData(String filePath, String outputPath) {
 		try {			
-			JSONArray newItems = new JSONArray();
+			//JSONArray newItems = new JSONArray();
 			File f = new File(outputPath);
 			if (f.exists()) {
 				System.out.println("\""+outputPath+"\" file existed");
@@ -45,6 +46,7 @@ public class ReadJson {
 			JSONParser jsonParser = new JSONParser();
 			JSONArray jsonArray = (JSONArray) jsonParser.parse(reader);
 			int counter = 1;
+			StringBuilder resultStr = new StringBuilder("[");
 			for (Object obj : jsonArray) {
 				JSONObject jsonObject = (JSONObject) obj;
 				String name = (String) jsonObject.get("name");
@@ -60,21 +62,23 @@ public class ReadJson {
 				fields.put("rating", rating);
 				
 				tempObj.put("pk", counter);
-				if (filePath=="restaurantData.json") {
-					tempObj.put("model", "rcmOnFacts.restaurant");
-				}else if(filePath=="shoppingData.json"){
-					tempObj.put("model", "rcmOnFacts.shopping");
+				if (filePath=="RestaurantData.json") {
+					tempObj.put("model", "rcmOnUsers.restaurant");
+				}else if(filePath=="ShoppingData.json"){
+					tempObj.put("model", "rcmOnUsers.shopping");
 				}else {
 					System.out.println("Something wrong");
 					System.exit(-1);
 				}	
 				tempObj.put("fields", fields);
-				newItems.add(tempObj);
-				//resultStr += tempObj.toString()+"\n";
+				//newItems.add(tempObj);
+				resultStr.append(tempObj.toString()+"\n") ;
+				counter++;
 			}
+			resultStr.append("]");
 			
-			//output.write(resultStr);
-			output.write(newItems.toString());
+			output.write(resultStr.toString());
+			//output.write(newItems.toString());
 			output.flush();
 			output.close();
 		} catch (FileNotFoundException ex) {
