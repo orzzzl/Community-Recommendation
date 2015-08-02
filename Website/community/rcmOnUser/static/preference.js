@@ -41,3 +41,10 @@ $("#transportation").slider({
 $("#transportation").on("slide", function (slideEvt) {
     $("#eatingSliderVal").text(slideEvt.value);
 });
+
+$("#cost").slider({
+	tooltip: 'always'
+});
+$("#cost").on("slide", function (slideEvt) {
+    $("#eatingSliderVal").text(slideEvt.value);
+});
