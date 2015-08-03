@@ -21,9 +21,10 @@ public class ZipCodeEntry {
 	private double part1Score;
 	private double part2Score;
 	private double areaScore;
-	private static final double coe = 0.1;      // coefficient of variance
+	private static final double coe = 0.5;      // coefficient of variance
 	private static final double rcoe = 0.7;     // coefficient of rating part score
 	private static final double ncoe = 0.3;     // coefficient of number part score
+	private static final double normalize = 6;
 
 	public ZipCodeEntry(String zipcode) {
 		this.zipcode = zipcode;
@@ -61,8 +62,9 @@ public class ZipCodeEntry {
 		if (ratingList.isEmpty()) {
 			return;
 		}
+		int entrySize = ratingList.size();
 		for (Double rating : ratingList) {
-			variance += Math.pow((rating.doubleValue() - aveRating), 2);
+			variance += Math.pow((rating.doubleValue() - aveRating), 2) / entrySize;
 		}
 		variance *= coe;
 	}
@@ -80,10 +82,10 @@ public class ZipCodeEntry {
 		}
 		double score = 0.0;
 		int intervalSize = intervals.size();
-		int restSize = ratingList.size();
+		int entrySize = ratingList.size();
 		for(int i = 0; i < intervalSize; i++) {
 			if(i < intervalSize - 1) {
-				if(restSize >= intervals.get(i) && restSize < intervals.get(i + 1)) {
+				if(entrySize >= intervals.get(i) && entrySize < intervals.get(i + 1)) {
 					score = i;
 				}else {
 					continue;
@@ -104,6 +106,7 @@ public class ZipCodeEntry {
 		calPart1Score();
 		calPart2Score(intervals);
 		areaScore = rcoe * part1Score + ncoe * part2Score;
+		areaScore /= normalize;
 	}
 	
 	public double getAreaScore() {
