@@ -1,0 +1,5 @@
+create external table crime (zipcode string, average int)
+          row format delimited fields terminated by ' '
+          location '/user/cloudera/crimeout/';
+
+select * from crime order by average asc limit 1;
