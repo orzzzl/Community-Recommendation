@@ -9,7 +9,7 @@ import java.net.URLConnection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-//import org.json.simple.JSONObject;
+
 
 public class Parser3 {
 	//@SuppressWarnings("unchecked")
@@ -40,61 +40,44 @@ public class Parser3 {
 				11427, 11428, 11429, 11430, 11432, 11433, 11434, 11435, 11436,
 				11451, 11691, 11692, 11693, 11694, 11697 };
 
-		//int counter = 0;
-		String s;
-		//FileWriter jsonFileWriter = new FileWriter("crime2.json");
+		
+		String s;		
 		FileWriter print = new FileWriter("crime3.txt");
 		String pat = " violent crime, on a scale from 1 \\(low crime\\) to 100, is (\\d+)";
 		String pat2 = " property crime, on a scale from 1 \\(low\\) to 100, is (\\d+)";
 		Pattern pattern = Pattern.compile(pat);
 		Pattern pattern2 = Pattern.compile(pat2);
-		//JSONObject json = new JSONObject();
-
-		//jsonFileWriter.write("[");
+		
 		for (int i : zipCodes) {
 			URL url = new URL(
 					"http://www.bestplaces.net/crime/zip-code/new_york/new_york/"
 							+ i);
 			URLConnection conn = url.openConnection();
 			BufferedReader br = new BufferedReader(new InputStreamReader(
-					conn.getInputStream()));
-			//jsonFileWriter.write("{ \"fields\": ");
-			//json.put("zipcode", Integer.toString(i));
+					conn.getInputStream()));			
 			print.write(i+" ");
 			while ((s = br.readLine()) != null) {
 
 				Matcher match = pattern.matcher(s);
 				Matcher match2 = pattern2.matcher(s);
-				if (match.find()) {
-					//json.put("crime", match.group(1));
+				if (match.find()) {					
 					print.write(match.group(1)+" ");
 					System.out.println("zip code: " + i + "\t crime rate "
 							+ match.group(1));
 
 				}
 				if (match2.find()) {
-					print.write(match2.group(1)+"\n");
-					//json.put("property", match2.group(1));
+					print.write(match2.group(1)+"\n");				
 					System.out.println("zip code: " + i + "\t property rate "
 							+ match2.group(1));
 
 				}
 
 			}
-			//jsonFileWriter.write(json.toJSONString());
-			//jsonFileWriter.write(", \"model\": \"crimeData\",");
-			//jsonFileWriter.write("\"pk\": " + (counter + 1));
-			//jsonFileWriter.write("}");
-			//if (i != 11697) {
-				//jsonFileWriter.write(",");
-			//}
-			//json.clear();
-			//jsonFileWriter.flush();
-			print.flush();
-			//counter++;
+			
+			print.flush();			
 		}
-		//jsonFileWriter.write("]");
-		//jsonFileWriter.close();
+		
 		print.close();
 	}
 
