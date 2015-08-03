@@ -28,7 +28,7 @@ Step 3: Execute jsoncreator program
 
 Run JSONCrime
 
-Input: crime3,hiveoutput
+Input: crime3.txt,hiveoutput
 
 Output: crime3.json
 

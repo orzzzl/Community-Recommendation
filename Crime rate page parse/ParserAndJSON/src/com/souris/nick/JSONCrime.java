@@ -53,7 +53,7 @@ public class JSONCrime {
 			json.put("score", Double.toString(sc));
 
 			jsonFileWriter.write(json.toJSONString());
-			jsonFileWriter.write(", \"model\": \"crimeData\",");
+			jsonFileWriter.write(", \"model\": \"rcmOnUser.crimeData\",");
 			jsonFileWriter.write("\"pk\": " + (counter + 1));
 			jsonFileWriter.write("}");
 			if (!zipcode.equalsIgnoreCase("11697")) {

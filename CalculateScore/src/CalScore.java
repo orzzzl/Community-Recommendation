@@ -85,7 +85,7 @@ public class CalScore {
 					fields.put("zipcode", entry.getZipCode());
 					fields.put("score", entry.getAreaScore());
 					tempObj.put("pk", counter);
-					tempObj.put("model", "rcmOnUsers.restaurantScore");
+					tempObj.put("model", "rcmOnUser.restaurantScore");
 					tempObj.put("fields", fields);
 					resultStr.append(tempObj.toString()+"\n") ;
 					counter++;
@@ -113,7 +113,7 @@ public class CalScore {
 					fields.put("zipcode", entry.getZipCode());
 					fields.put("score", entry.getAreaScore());
 					tempObj.put("pk", counter);
-					tempObj.put("model", "rcmOnUsers.shoppingScore");
+					tempObj.put("model", "rcmOnUser.shoppingScore");
 					tempObj.put("fields", fields);
 					resultStr.append(tempObj.toString()+"\n") ;
 					counter++;
