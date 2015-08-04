@@ -5,13 +5,15 @@ from rcmOnFacts.models import cityData
 
 class algorithm:
     @staticmethod
-    def rcmdtion (input):
+    def rcmdtion (input, sessionVal):
         gender = int (input ['gender'])
         marriage = int (input ['marriage'])
         race = int (input ['race'])
         sexo = int (input ['sexorient'])
         rentbuy = int (input ['rentbuy'])
         education = int (input ['education'])
+        subChoice = int (input ['submitType'])
+
         if gender == 1:
             target = {
                 'malePercentage': 0,
@@ -193,13 +195,31 @@ class algorithm:
 
         assert (len (target.keys()) == 23)
         res = []
+        resSimilarityOnly = []
         for i in cityData.objects.all():
             simlarity = float("{0:3.03f}".format(cos(i, target, target.keys())))
+            simlaritySecondRound = 0
+            if subChoice == 1:
+                for j in sessionVal:
+                    if j ['zip'] == i.zipCode:
+                        simlaritySecondRound = j ['simlarity']
+                        break
             tmp = {
                 'zipThing': i,
                 'simlarity': simlarity
             }
+            if subChoice == 1:
+                tmp ['simlaritySecondRound'] = simlaritySecondRound
+            tmpNew = {
+                'zip': i.zipCode,
+                'simlarity': simlarity
+            }
             res.append(tmp)
-        res.sort(key=lambda zipObj: zipObj ["simlarity"], reverse=True)
-        return res [0: 9]
-
+            resSimilarityOnly.append(tmpNew)
+        if subChoice == 2:
+            res.sort(key=lambda zipObj: zipObj ["simlarity"], reverse=True)
+        else:
+            res.sort(key=lambda zipObj: zipObj ["simlarity"] + zipObj ["simlaritySecondRound"], reverse=True)
+        resSimilarityOnly.sort(key=lambda zipObj: zipObj ["simlarity"], reverse=True)
+        ret = (res, resSimilarityOnly)
+        return ret

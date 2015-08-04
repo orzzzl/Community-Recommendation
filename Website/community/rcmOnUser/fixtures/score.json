@@ -1,0 +1,2894 @@
+[
+  {
+    "fields": {
+      "school": 0.76, 
+      "transportation": 0.9304347826086956, 
+      "money": 434, 
+      "zipCode": "10001", 
+      "eating": 0.6623671553497931, 
+      "clinicNumber": 68, 
+      "health": 0.83, 
+      "shopping": 0.7359847883597869, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 9
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "school": 0.85, 
+      "transportation": 0.7086092715231788, 
+      "money": 585, 
+      "zipCode": "10002", 
+      "eating": 0.6920676661828713, 
+      "clinicNumber": 13, 
+      "health": 0.58, 
+      "shopping": 0.7414956726240828, 
+      "preschoolNumber": 14
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "school": 0.74, 
+      "transportation": 0.9469026548672564, 
+      "money": 889, 
+      "zipCode": "10003", 
+      "eating": 0.6720605693297438, 
+      "clinicNumber": 108, 
+      "health": 0.9, 
+      "shopping": 0.7064531838920877, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 3
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.9771689497716894, 
+      "money": 1001, 
+      "zipCode": "10004", 
+      "eating": 0.6448780129335676, 
+      "clinicNumber": 9, 
+      "health": 0.54, 
+      "shopping": 0.7024870242214533, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 4
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.9224137931034482, 
+      "money": 1001, 
+      "zipCode": "10005", 
+      "eating": 0.6439088954761526, 
+      "clinicNumber": 4, 
+      "health": 0.48, 
+      "shopping": 0.6717363968907181, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 5
+  }, 
+  {
+    "fields": {
+      "shopping": 0.7059614496768235, 
+      "money": 1001, 
+      "zipCode": "10006", 
+      "clinicNumber": 12, 
+      "health": 0.61, 
+      "eating": 0.6415152472255251
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 6
+  }, 
+  {
+    "fields": {
+      "school": 0.71, 
+      "transportation": 0.9727272727272727, 
+      "money": 1001, 
+      "zipCode": "10007", 
+      "eating": 0.643365598924276, 
+      "clinicNumber": 18, 
+      "health": 0.63, 
+      "shopping": 0.6811109738012847, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 7
+  }, 
+  {
+    "fields": {
+      "school": 0.75, 
+      "transportation": 0.740484429065744, 
+      "money": 506, 
+      "zipCode": "10009", 
+      "eating": 0.6988442442427942, 
+      "clinicNumber": 16, 
+      "health": 0.61, 
+      "shopping": 0.7441136532883391, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 8
+  }, 
+  {
+    "fields": {
+      "school": 0.78, 
+      "transportation": 0.8359374999999999, 
+      "money": 890, 
+      "zipCode": "10010", 
+      "eating": 0.6620819784079085, 
+      "clinicNumber": 65, 
+      "health": 0.81, 
+      "shopping": 0.6984698511445481, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 10
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 9
+  }, 
+  {
+    "fields": {
+      "school": 0.84, 
+      "transportation": 0.9385964912280701, 
+      "money": 901, 
+      "zipCode": "10011", 
+      "eating": 0.667836257238565, 
+      "clinicNumber": 81, 
+      "health": 0.87, 
+      "shopping": 0.7048337772506801, 
+      "preschoolNumber": 14
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 10
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.9861751152073733, 
+      "money": 1001, 
+      "zipCode": "10012", 
+      "eating": 0.6888605715496974, 
+      "clinicNumber": 36, 
+      "health": 0.74, 
+      "shopping": 0.7215791408343435, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 11
+  }, 
+  {
+    "fields": {
+      "school": 0.83, 
+      "transportation": 0.9145299145299145, 
+      "money": 1001, 
+      "zipCode": "10013", 
+      "eating": 0.6767632275132263, 
+      "clinicNumber": 59, 
+      "health": 0.81, 
+      "shopping": 0.7303609014370728, 
+      "preschoolNumber": 14
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 12
+  }, 
+  {
+    "fields": {
+      "school": 0.78, 
+      "transportation": 0.9469026548672564, 
+      "money": 1001, 
+      "zipCode": "10014", 
+      "eating": 0.6805009501532977, 
+      "clinicNumber": 17, 
+      "health": 0.64, 
+      "shopping": 0.7371243165854612, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 10
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 13
+  }, 
+  {
+    "fields": {
+      "school": 0.8, 
+      "transportation": 0.887966804979253, 
+      "money": 1001, 
+      "zipCode": "10016", 
+      "eating": 0.6689246106024508, 
+      "clinicNumber": 178, 
+      "health": 1.0, 
+      "shopping": 0.7171813793559488, 
+      "preschoolNumber": 11
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 14
+  }, 
+  {
+    "fields": {
+      "school": 0.71, 
+      "transportation": 1.0, 
+      "money": 951, 
+      "zipCode": "10017", 
+      "eating": 0.6632602049858215, 
+      "clinicNumber": 86, 
+      "health": 0.87, 
+      "shopping": 0.6877855405245065, 
+      "security": 0.25, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 15
+  }, 
+  {
+    "fields": {
+      "shopping": 0.7281391781516806, 
+      "money": 625, 
+      "zipCode": "10018", 
+      "eating": 0.6568087968441819, 
+      "clinicNumber": 18, 
+      "health": 0.64, 
+      "transportation": 0.8392156862745097
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 16
+  }, 
+  {
+    "fields": {
+      "school": 0.66, 
+      "transportation": 0.9385964912280701, 
+      "money": 1001, 
+      "zipCode": "10019", 
+      "eating": 0.6758861395267785, 
+      "clinicNumber": 107, 
+      "health": 0.9, 
+      "shopping": 0.7279265876822111, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 17
+  }, 
+  {
+    "fields": {
+      "school": 0.82, 
+      "transportation": 0.8294573643410853, 
+      "money": 1001, 
+      "zipCode": "10021", 
+      "eating": 0.6702024185068334, 
+      "clinicNumber": 80, 
+      "health": 0.85, 
+      "shopping": 0.7009591535343951, 
+      "security": 0.25, 
+      "preschoolNumber": 13
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 18
+  }, 
+  {
+    "fields": {
+      "shopping": 0.6683970385674932, 
+      "money": 1121, 
+      "zipCode": "10020", 
+      "clinicNumber": 3, 
+      "health": 0.45, 
+      "eating": 0.6578170553935861
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 19
+  }, 
+  {
+    "fields": {
+      "school": 0.76, 
+      "transportation": 0.9264069264069263, 
+      "money": 882, 
+      "zipCode": "10022", 
+      "eating": 0.6718050402826489, 
+      "clinicNumber": 108, 
+      "health": 0.92, 
+      "shopping": 0.7120729769710931, 
+      "preschoolNumber": 9
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 20
+  }, 
+  {
+    "fields": {
+      "school": 0.9, 
+      "transportation": 0.8294573643410853, 
+      "money": 1001, 
+      "zipCode": "10023", 
+      "eating": 0.655208836815883, 
+      "clinicNumber": 56, 
+      "health": 0.79, 
+      "shopping": 0.6987648225262744, 
+      "security": 0.25, 
+      "preschoolNumber": 20
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 21
+  }, 
+  {
+    "fields": {
+      "school": 0.94, 
+      "transportation": 0.7725631768953068, 
+      "money": 952, 
+      "zipCode": "10024", 
+      "eating": 0.6601715556027908, 
+      "clinicNumber": 43, 
+      "health": 0.75, 
+      "shopping": 0.6816470324067353, 
+      "preschoolNumber": 24
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 22
+  }, 
+  {
+    "fields": {
+      "school": 0.67, 
+      "transportation": 0.6793650793650793, 
+      "money": 939, 
+      "zipCode": "10026", 
+      "eating": 0.669698426846813, 
+      "clinicNumber": 2, 
+      "health": 0.4, 
+      "shopping": 0.7105821759259259, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 23
+  }, 
+  {
+    "fields": {
+      "school": 0.89, 
+      "transportation": 0.7535211267605634, 
+      "money": 708, 
+      "zipCode": "10025", 
+      "eating": 0.6604305869926053, 
+      "clinicNumber": 26, 
+      "health": 0.67, 
+      "shopping": 0.6724533716837565, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 17
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 24
+  }, 
+  {
+    "fields": {
+      "school": 0.74, 
+      "transportation": 0.7508771929824561, 
+      "money": 693, 
+      "zipCode": "10027", 
+      "eating": 0.6641000576701259, 
+      "clinicNumber": 10, 
+      "health": 0.55, 
+      "shopping": 0.6757096932014299, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 25
+  }, 
+  {
+    "fields": {
+      "school": 0.84, 
+      "transportation": 0.7670250896057347, 
+      "money": 1001, 
+      "zipCode": "10028", 
+      "eating": 0.666109651593833, 
+      "clinicNumber": 54, 
+      "health": 0.79, 
+      "shopping": 0.6891889411132958, 
+      "preschoolNumber": 14
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 26
+  }, 
+  {
+    "fields": {
+      "school": 0.8, 
+      "transportation": 0.6625386996904026, 
+      "money": 813, 
+      "zipCode": "10029", 
+      "eating": 0.6747189698899718, 
+      "clinicNumber": 15, 
+      "health": 0.58, 
+      "shopping": 0.7098619063553441, 
+      "security": 0.125, 
+      "preschoolNumber": 11
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 27
+  }, 
+  {
+    "fields": {
+      "school": 0.57, 
+      "transportation": 0.627565982404692, 
+      "money": 756, 
+      "zipCode": "10030", 
+      "eating": 0.6644950929752066, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "shopping": 0.757944059976932, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 28
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.6011235955056179, 
+      "money": 459, 
+      "zipCode": "10031", 
+      "eating": 0.6754000516528924, 
+      "clinicNumber": 3, 
+      "health": 0.44, 
+      "shopping": 0.7570332639302005, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 29
+  }, 
+  {
+    "fields": {
+      "school": 0.73, 
+      "transportation": 0.6239067055393587, 
+      "money": 315, 
+      "zipCode": "10032", 
+      "eating": 0.6697587908215205, 
+      "clinicNumber": 15, 
+      "health": 0.58, 
+      "shopping": 0.7247541152263374, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 30
+  }, 
+  {
+    "fields": {
+      "school": 0.71, 
+      "transportation": 0.599439775910364, 
+      "money": 264, 
+      "zipCode": "10033", 
+      "eating": 0.6772048104956268, 
+      "clinicNumber": 8, 
+      "health": 0.52, 
+      "shopping": 0.6424050925925925, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 31
+  }, 
+  {
+    "fields": {
+      "school": 0.69, 
+      "transportation": 0.5572916666666666, 
+      "money": 356, 
+      "zipCode": "10034", 
+      "eating": 0.6628895526525762, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.6686103012633623, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 32
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.8492063492063491, 
+      "money": 874, 
+      "zipCode": "10036", 
+      "eating": 0.66236375172933, 
+      "clinicNumber": 32, 
+      "health": 0.71, 
+      "shopping": 0.7419155944550188, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 33
+  }, 
+  {
+    "fields": {
+      "school": 0.55, 
+      "transportation": 0.6504559270516718, 
+      "money": 622, 
+      "zipCode": "10035", 
+      "eating": 0.6794275480864563, 
+      "clinicNumber": 7, 
+      "health": 0.5, 
+      "shopping": 0.677289844509232, 
+      "security": 0.125, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 34
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.6350148367952522, 
+      "money": 243, 
+      "zipCode": "10037", 
+      "eating": 0.6760277777777777, 
+      "clinicNumber": 4, 
+      "health": 0.43, 
+      "shopping": 0.7378833912037037, 
+      "security": 0.125, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 35
+  }, 
+  {
+    "fields": {
+      "school": 0.66, 
+      "transportation": 0.9106382978723404, 
+      "money": 367, 
+      "zipCode": "10038", 
+      "eating": 0.6500250280421241, 
+      "clinicNumber": 25, 
+      "health": 0.68, 
+      "shopping": 0.6878023406045314, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 36
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.5846994535519126, 
+      "money": 364, 
+      "zipCode": "10039", 
+      "eating": 0.6400310249485596, 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "shopping": 0.7104166666666666, 
+      "security": 0.125, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 37
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.5487179487179487, 
+      "money": 296, 
+      "zipCode": "10040", 
+      "eating": 0.6596843384249156, 
+      "clinicNumber": 2, 
+      "health": 0.37, 
+      "shopping": 0.7311203703703703, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 38
+  }, 
+  {
+    "fields": {
+      "transportation": 0.6114285714285714, 
+      "money": 1001, 
+      "zipCode": "10044", 
+      "eating": 0.6672453703703702, 
+      "clinicNumber": 2, 
+      "health": 0.43, 
+      "shopping": 0.7155, 
+      "security": 0.1428571492433548
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 39
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "shopping": 0.0, 
+      "money": 1001, 
+      "zipCode": "10069", 
+      "eating": 0.6291666666666667, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 40
+  }, 
+  {
+    "fields": {
+      "money": 1121, 
+      "security": 0.1666666716337204, 
+      "shopping": 0.6407118055555555, 
+      "zipCode": "10103", 
+      "eating": 0.6583333333333333
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 41
+  }, 
+  {
+    "fields": {
+      "shopping": 0.7166666666666667, 
+      "money": 1121, 
+      "zipCode": "10111", 
+      "clinicNumber": 4, 
+      "health": 0.47, 
+      "eating": 0.6583333333333333, 
+      "security": 0.20000000298023224
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 42
+  }, 
+  {
+    "fields": {
+      "shopping": 0.7190828402366863, 
+      "money": 1121, 
+      "zipCode": "10112", 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "eating": 0.7399088541666666
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 43
+  }, 
+  {
+    "fields": {
+      "money": 314, 
+      "security": 0.1666666716337204, 
+      "shopping": 0.6346354166666667, 
+      "zipCode": "10115", 
+      "eating": 0.3666666666666667
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 44
+  }, 
+  {
+    "fields": {
+      "eating": 0.5994047619047619, 
+      "shopping": 0.66015625, 
+      "zipCode": "10119"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 45
+  }, 
+  {
+    "fields": {
+      "school": 0.79, 
+      "transportation": 0.7086092715231788, 
+      "money": 1001, 
+      "zipCode": "10128", 
+      "eating": 0.6632116404082449, 
+      "clinicNumber": 40, 
+      "health": 0.75, 
+      "shopping": 0.7165097183960816, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 11
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 46
+  }, 
+  {
+    "fields": {
+      "money": 1121, 
+      "eating": 0.0, 
+      "shopping": 0.0, 
+      "zipCode": "10152"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 47
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 1121, 
+      "zipCode": "10154", 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "eating": 0.775
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 48
+  }, 
+  {
+    "fields": {
+      "money": 1121, 
+      "security": 0.1666666716337204, 
+      "shopping": 0.682142857142857, 
+      "zipCode": "10153", 
+      "eating": 0.6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 49
+  }, 
+  {
+    "fields": {
+      "money": 1029, 
+      "security": 0.1428571492433548, 
+      "shopping": 0.0, 
+      "zipCode": "10162", 
+      "eating": 0.0
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 50
+  }, 
+  {
+    "fields": {
+      "shopping": 0.6669921875, 
+      "money": 1029, 
+      "zipCode": "10165", 
+      "clinicNumber": 2, 
+      "health": 0.4, 
+      "eating": 0.8333333333333334
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 51
+  }, 
+  {
+    "fields": {
+      "shopping": 0.48333333333333334, 
+      "money": 303, 
+      "zipCode": "10167", 
+      "clinicNumber": 1, 
+      "health": 0.32, 
+      "eating": 0.7037037037037037, 
+      "security": 0.1666666716337204
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 52
+  }, 
+  {
+    "fields": {
+      "shopping": 0.425, 
+      "money": 303, 
+      "zipCode": "10169", 
+      "clinicNumber": 1, 
+      "health": 0.36, 
+      "eating": 0.6583333333333333, 
+      "security": 0.1666666716337204
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 53
+  }, 
+  {
+    "fields": {
+      "shopping": 0.5953333333333334, 
+      "money": 303, 
+      "zipCode": "10170", 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "eating": 0.0
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 54
+  }, 
+  {
+    "fields": {
+      "money": 303, 
+      "security": 0.1666666716337204, 
+      "shopping": 0.0, 
+      "zipCode": "10171", 
+      "eating": 0.0
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 55
+  }, 
+  {
+    "fields": {
+      "shopping": 0.6, 
+      "money": 303, 
+      "zipCode": "10172", 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "eating": 0.0
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 56
+  }, 
+  {
+    "fields": {
+      "eating": 0.6583333333333333, 
+      "security": 0.1666666716337204, 
+      "shopping": 0.7166666666666667, 
+      "zipCode": "10173"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 57
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "zipCode": "10177", 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "eating": 0.0, 
+      "security": 0.20000000298023224
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 58
+  }, 
+  {
+    "fields": {
+      "money": 1121, 
+      "security": 0.1666666716337204, 
+      "shopping": 0.775, 
+      "zipCode": "10271", 
+      "eating": 0.6988425925925924
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 59
+  }, 
+  {
+    "fields": {
+      "money": 1029, 
+      "eating": 0.0, 
+      "shopping": 0.0, 
+      "zipCode": "10278"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 60
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 1029, 
+      "zipCode": "10279", 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "eating": 0.6, 
+      "security": 0.1666666716337204
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 61
+  }, 
+  {
+    "fields": {
+      "school": 0.65, 
+      "transportation": 0.8075471698113206, 
+      "money": 1001, 
+      "zipCode": "10280", 
+      "eating": 0.627599862258953, 
+      "clinicNumber": 1, 
+      "health": 0.36, 
+      "shopping": 0.718287037037037, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 62
+  }, 
+  {
+    "fields": {
+      "shopping": 0.6425833333333333, 
+      "zipCode": "10282", 
+      "eating": 0.66125, 
+      "clinicNumber": 1, 
+      "health": 0.35, 
+      "transportation": 0.7697841726618705, 
+      "security": 0.1428571492433548
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 63
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5501285347043702, 
+      "money": 800, 
+      "zipCode": "10301", 
+      "eating": 0.48333333333333334, 
+      "clinicNumber": 2, 
+      "health": 0.42, 
+      "shopping": 0.0, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 64
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.5501285347043702, 
+      "money": 695, 
+      "zipCode": "10302", 
+      "eating": 0.6, 
+      "clinicNumber": 2, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 65
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "shopping": 0.0, 
+      "money": 659, 
+      "zipCode": "10303", 
+      "eating": 0.0, 
+      "transportation": 0.5035294117647059, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 66
+  }, 
+  {
+    "fields": {
+      "school": 0.68, 
+      "transportation": 0.5417721518987342, 
+      "money": 805, 
+      "zipCode": "10304", 
+      "eating": 0.7166666666666667, 
+      "clinicNumber": 4, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 67
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.5768194070080862, 
+      "money": 672, 
+      "zipCode": "10305", 
+      "eating": 0.0, 
+      "clinicNumber": 3, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 68
+  }, 
+  {
+    "fields": {
+      "school": 0.68, 
+      "transportation": 0.5095238095238095, 
+      "money": 737, 
+      "zipCode": "10306", 
+      "eating": 0.0, 
+      "clinicNumber": 7, 
+      "health": 0.51, 
+      "shopping": 0.0, 
+      "security": 0.3333333432674408, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 69
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "shopping": 0.0, 
+      "money": 731, 
+      "zipCode": "10307", 
+      "eating": 0.0, 
+      "transportation": 0.481981981981982, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 70
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.4919540229885057, 
+      "money": 739, 
+      "zipCode": "10308", 
+      "eating": 0.0, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "shopping": 0.0, 
+      "security": 0.5, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 71
+  }, 
+  {
+    "fields": {
+      "school": 0.72, 
+      "transportation": 0.48526077097505665, 
+      "money": 816, 
+      "zipCode": "10309", 
+      "eating": 0.0, 
+      "clinicNumber": 2, 
+      "health": 0.38, 
+      "shopping": 0.0, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 72
+  }, 
+  {
+    "fields": {
+      "school": 0.65, 
+      "transportation": 0.5417721518987342, 
+      "money": 758, 
+      "zipCode": "10310", 
+      "eating": 0.0, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 73
+  }, 
+  {
+    "fields": {
+      "school": 0.67, 
+      "transportation": 0.5047169811320755, 
+      "money": 754, 
+      "zipCode": "10312", 
+      "eating": 0.0, 
+      "clinicNumber": 6, 
+      "health": 0.5, 
+      "shopping": 0.0, 
+      "security": 0.5, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 74
+  }, 
+  {
+    "fields": {
+      "school": 0.76, 
+      "transportation": 0.544529262086514, 
+      "money": 745, 
+      "zipCode": "10314", 
+      "eating": 0.0, 
+      "clinicNumber": 6, 
+      "health": 0.48, 
+      "shopping": 0.0, 
+      "preschoolNumber": 9
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 75
+  }, 
+  {
+    "fields": {
+      "school": 0.57, 
+      "transportation": 0.5417721518987342, 
+      "money": 625, 
+      "zipCode": "10451", 
+      "eating": 0.657169529097796, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "security": 0.125, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 76
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5323383084577114, 
+      "money": 350, 
+      "zipCode": "10452", 
+      "eating": 0.6694070247933882, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 77
+  }, 
+  {
+    "fields": {
+      "transportation": 0.5336658354114713, 
+      "money": 671, 
+      "zipCode": "10453", 
+      "eating": 0.6655836483931946, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "security": 0.1111111119389534
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 78
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "shopping": 0.0, 
+      "money": 511, 
+      "zipCode": "10454", 
+      "eating": 0.6832143565338095, 
+      "transportation": 0.5587467362924282, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 79
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5431472081218274, 
+      "money": 334, 
+      "zipCode": "10455", 
+      "eating": 0.7107330018812146, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "security": 0.125, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 80
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.5144230769230769, 
+      "money": 647, 
+      "zipCode": "10456", 
+      "eating": 0.6358372287626962, 
+      "clinicNumber": 6, 
+      "health": 0.49, 
+      "shopping": 0.0, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 81
+  }, 
+  {
+    "fields": {
+      "school": 0.64, 
+      "transportation": 0.5257985257985257, 
+      "money": 462, 
+      "zipCode": "10457", 
+      "eating": 0.6568930041152263, 
+      "clinicNumber": 4, 
+      "health": 0.44, 
+      "shopping": 0.0, 
+      "security": 0.1111111119389534, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 82
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5417721518987342, 
+      "money": 576, 
+      "zipCode": "10458", 
+      "eating": 0.7103391225477024, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 83
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.5587467362924282, 
+      "money": 708, 
+      "zipCode": "10459", 
+      "eating": 0.6808208546384221, 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "shopping": 0.0, 
+      "security": 0.125, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 84
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "shopping": 0.0, 
+      "money": 747, 
+      "zipCode": "10460", 
+      "eating": 0.7106100260416666, 
+      "transportation": 0.5390428211586901, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 85
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.5863013698630137, 
+      "money": 736, 
+      "zipCode": "10461", 
+      "eating": 0.6974092726724007, 
+      "clinicNumber": 21, 
+      "health": 0.64, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 86
+  }, 
+  {
+    "fields": {
+      "school": 0.68, 
+      "transportation": 0.5047169811320755, 
+      "money": 752, 
+      "zipCode": "10462", 
+      "eating": 0.6779691104382927, 
+      "clinicNumber": 10, 
+      "health": 0.54, 
+      "shopping": 0.0, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 87
+  }, 
+  {
+    "fields": {
+      "money": 915, 
+      "eating": 0.6689543547453706, 
+      "shopping": 0.0, 
+      "zipCode": "10464"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 88
+  }, 
+  {
+    "fields": {
+      "school": 0.73, 
+      "transportation": 0.5270935960591133, 
+      "money": 481, 
+      "zipCode": "10463", 
+      "eating": 0.6678829541203276, 
+      "clinicNumber": 9, 
+      "health": 0.53, 
+      "shopping": 0.6277083333333333, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 89
+  }, 
+  {
+    "fields": {
+      "school": 0.71, 
+      "transportation": 0.5721925133689839, 
+      "money": 791, 
+      "zipCode": "10465", 
+      "eating": 0.6749544731712321, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 90
+  }, 
+  {
+    "fields": {
+      "school": 0.65, 
+      "transportation": 0.4919540229885057, 
+      "money": 766, 
+      "zipCode": "10466", 
+      "eating": 0.7379902343749999, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 91
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.5219512195121951, 
+      "money": 643, 
+      "zipCode": "10467", 
+      "eating": 0.6956032859572402, 
+      "clinicNumber": 7, 
+      "health": 0.51, 
+      "shopping": 0.0, 
+      "security": 0.125, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 92
+  }, 
+  {
+    "fields": {
+      "school": 0.65, 
+      "transportation": 0.5194174757281553, 
+      "money": 368, 
+      "zipCode": "10468", 
+      "eating": 0.6540256410256408, 
+      "clinicNumber": 2, 
+      "health": 0.4, 
+      "shopping": 0.0, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 93
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5515463917525774, 
+      "money": 776, 
+      "zipCode": "10469", 
+      "eating": 0.6711666666666666, 
+      "clinicNumber": 6, 
+      "health": 0.49, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 94
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 810, 
+      "eating": 0.62625, 
+      "transportation": 0.5363408521303258, 
+      "zipCode": "10470"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 95
+  }, 
+  {
+    "fields": {
+      "school": 0.6, 
+      "transportation": 0.5676392572944297, 
+      "money": 873, 
+      "zipCode": "10471", 
+      "eating": 0.6678166351606806, 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 96
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.5, 
+      "money": 776, 
+      "zipCode": "10472", 
+      "eating": 0.6833311083422334, 
+      "clinicNumber": 4, 
+      "health": 0.44, 
+      "shopping": 0.0, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 97
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 446, 
+      "eating": 0.6563528806584362, 
+      "transportation": 0.5631578947368421, 
+      "zipCode": "10474"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 98
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.4942263279445727, 
+      "money": 744, 
+      "zipCode": "10473", 
+      "eating": 0.6928757088846881, 
+      "clinicNumber": 2, 
+      "health": 0.38, 
+      "shopping": 0.0, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 99
+  }, 
+  {
+    "fields": {
+      "school": 0.48, 
+      "transportation": 0.46929824561403505, 
+      "money": 152, 
+      "zipCode": "10475", 
+      "eating": 0.6179861111111111, 
+      "clinicNumber": 2, 
+      "health": 0.4, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 100
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 756, 
+      "zipCode": "11004", 
+      "eating": 0.6504765280403276, 
+      "clinicNumber": 2, 
+      "health": 0.36, 
+      "transportation": 0.5558441558441558
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 101
+  }, 
+  {
+    "fields": {
+      "money": 662, 
+      "security": 0.5, 
+      "shopping": 0.0, 
+      "zipCode": "11005", 
+      "eating": 0.0
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 102
+  }, 
+  {
+    "fields": {
+      "school": 0.79, 
+      "transportation": 0.6504559270516718, 
+      "money": 618, 
+      "zipCode": "11101", 
+      "eating": 0.6899153378976924, 
+      "clinicNumber": 9, 
+      "health": 0.54, 
+      "shopping": 0.8333333333333334, 
+      "preschoolNumber": 10
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 103
+  }, 
+  {
+    "fields": {
+      "school": 0.51, 
+      "transportation": 0.6079545454545454, 
+      "money": 887, 
+      "zipCode": "11102", 
+      "eating": 0.6806762915348773, 
+      "clinicNumber": 14, 
+      "health": 0.57, 
+      "shopping": 0.0, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 104
+  }, 
+  {
+    "fields": {
+      "school": 0.65, 
+      "transportation": 0.599439775910364, 
+      "money": 877, 
+      "zipCode": "11103", 
+      "eating": 0.6840927309005647, 
+      "clinicNumber": 23, 
+      "health": 0.66, 
+      "shopping": 0.0, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 105
+  }, 
+  {
+    "fields": {
+      "school": 0.59, 
+      "transportation": 0.5799457994579946, 
+      "money": 720, 
+      "zipCode": "11104", 
+      "eating": 0.6689267113095237, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 106
+  }, 
+  {
+    "fields": {
+      "school": 0.6, 
+      "transportation": 0.5799457994579946, 
+      "money": 833, 
+      "zipCode": "11105", 
+      "eating": 0.7057146344866077, 
+      "clinicNumber": 12, 
+      "health": 0.6, 
+      "shopping": 0.3666666666666667, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 107
+  }, 
+  {
+    "fields": {
+      "school": 0.74, 
+      "transportation": 0.6202898550724638, 
+      "money": 751, 
+      "zipCode": "11106", 
+      "eating": 0.6831585995166239, 
+      "clinicNumber": 13, 
+      "health": 0.59, 
+      "shopping": 0.7166666666666667, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 108
+  }, 
+  {
+    "fields": {
+      "school": 0.85, 
+      "transportation": 0.7353951890034364, 
+      "money": 912, 
+      "zipCode": "11201", 
+      "eating": 0.6640368499685573, 
+      "clinicNumber": 41, 
+      "health": 0.73, 
+      "shopping": 0.7124681793115829, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 14
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 109
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.4703296703296703, 
+      "money": 798, 
+      "zipCode": "11203", 
+      "eating": 0.67441943359375, 
+      "clinicNumber": 11, 
+      "health": 0.54, 
+      "shopping": 0.6, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 110
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.5487179487179487, 
+      "money": 849, 
+      "zipCode": "11204", 
+      "eating": 0.6726098041691215, 
+      "clinicNumber": 17, 
+      "health": 0.61, 
+      "shopping": 0.6928751727069823, 
+      "security": 0.25, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 111
+  }, 
+  {
+    "fields": {
+      "school": 0.63, 
+      "transportation": 0.6504559270516718, 
+      "money": 747, 
+      "zipCode": "11205", 
+      "eating": 0.6799783066652658, 
+      "clinicNumber": 7, 
+      "health": 0.52, 
+      "shopping": 0.7476108033240997, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 112
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.5879120879120879, 
+      "money": 711, 
+      "zipCode": "11206", 
+      "eating": 0.6857551798389583, 
+      "clinicNumber": 4, 
+      "health": 0.42, 
+      "shopping": 0.71605935640887, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 113
+  }, 
+  {
+    "fields": {
+      "school": 0.64, 
+      "transportation": 0.413926499032882, 
+      "money": 718, 
+      "zipCode": "11207", 
+      "eating": 0.677054411822621, 
+      "clinicNumber": 7, 
+      "health": 0.5, 
+      "shopping": 0.7301866319444444, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 114
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.4808988764044943, 
+      "money": 679, 
+      "zipCode": "11208", 
+      "eating": 0.6811792592592593, 
+      "clinicNumber": 4, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 115
+  }, 
+  {
+    "fields": {
+      "school": 0.73, 
+      "transportation": 0.5376884422110553, 
+      "money": 851, 
+      "zipCode": "11209", 
+      "eating": 0.6910111272302198, 
+      "clinicNumber": 32, 
+      "health": 0.7, 
+      "shopping": 0.7165128571428573, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 116
+  }, 
+  {
+    "fields": {
+      "school": 0.68, 
+      "transportation": 0.5676392572944297, 
+      "money": 842, 
+      "zipCode": "11210", 
+      "eating": 0.6726376190027338, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 117
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.4874715261958998, 
+      "money": 642, 
+      "zipCode": "11212", 
+      "eating": 0.6818158436213991, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.5978993536472761, 
+      "security": 0.125, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 118
+  }, 
+  {
+    "fields": {
+      "school": 0.79, 
+      "transportation": 0.7535211267605634, 
+      "money": 763, 
+      "zipCode": "11211", 
+      "eating": 0.7006810897435897, 
+      "clinicNumber": 26, 
+      "health": 0.7, 
+      "shopping": 0.8333333333333334, 
+      "preschoolNumber": 10
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 119
+  }, 
+  {
+    "fields": {
+      "school": 0.68, 
+      "transportation": 0.5572916666666666, 
+      "money": 825, 
+      "zipCode": "11213", 
+      "eating": 0.6837785320739864, 
+      "clinicNumber": 7, 
+      "health": 0.51, 
+      "shopping": 0.7231481481481481, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 120
+  }, 
+  {
+    "fields": {
+      "school": 0.75, 
+      "transportation": 0.48636363636363633, 
+      "money": 808, 
+      "zipCode": "11214", 
+      "eating": 0.6668135332564388, 
+      "clinicNumber": 12, 
+      "health": 0.56, 
+      "shopping": 0.6928221309890822, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 121
+  }, 
+  {
+    "fields": {
+      "school": 1.0, 
+      "transportation": 0.6062322946175638, 
+      "money": 821, 
+      "zipCode": "11215", 
+      "eating": 0.6922895817676021, 
+      "clinicNumber": 40, 
+      "health": 0.76, 
+      "shopping": 0.0, 
+      "preschoolNumber": 32
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 122
+  }, 
+  {
+    "fields": {
+      "school": 0.76, 
+      "transportation": 0.6544342507645259, 
+      "money": 796, 
+      "zipCode": "11217", 
+      "eating": 0.6792061926677299, 
+      "clinicNumber": 14, 
+      "health": 0.61, 
+      "shopping": 0.7402514814814817, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 123
+  }, 
+  {
+    "fields": {
+      "school": 0.58, 
+      "transportation": 0.5473145780051151, 
+      "money": 774, 
+      "zipCode": "11216", 
+      "eating": 0.6841043974940509, 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "shopping": 0.7198889941077439, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 124
+  }, 
+  {
+    "fields": {
+      "school": 0.69, 
+      "transportation": 0.5349999999999999, 
+      "money": 764, 
+      "zipCode": "11218", 
+      "eating": 0.6667910913872444, 
+      "clinicNumber": 6, 
+      "health": 0.49, 
+      "shopping": 0.7781928007889546, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 125
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.5631578947368421, 
+      "money": 1001, 
+      "zipCode": "11219", 
+      "eating": 0.6851849443095538, 
+      "clinicNumber": 15, 
+      "health": 0.58, 
+      "shopping": 0.732341724537037, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 126
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.46623093681917205, 
+      "money": 822, 
+      "zipCode": "11220", 
+      "eating": 0.6796503797211013, 
+      "clinicNumber": 16, 
+      "health": 0.6, 
+      "shopping": 0.7169331275720164, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 127
+  }, 
+  {
+    "fields": {
+      "school": 0.76, 
+      "transportation": 0.4874715261958998, 
+      "money": 650, 
+      "zipCode": "11221", 
+      "eating": 0.6815437862983899, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.7597786458333333, 
+      "preschoolNumber": 9
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 128
+  }, 
+  {
+    "fields": {
+      "school": 0.72, 
+      "transportation": 0.6750788643533123, 
+      "money": 711, 
+      "zipCode": "11222", 
+      "eating": 0.6943742239322934, 
+      "clinicNumber": 12, 
+      "health": 0.57, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 129
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.5131894484412469, 
+      "money": 788, 
+      "zipCode": "11223", 
+      "eating": 0.6824886066047672, 
+      "clinicNumber": 11, 
+      "health": 0.57, 
+      "shopping": 0.7211954752604166, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 130
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.48526077097505665, 
+      "money": 490, 
+      "zipCode": "11224", 
+      "eating": 0.650512949625651, 
+      "clinicNumber": 2, 
+      "health": 0.4, 
+      "shopping": 0.5416666666666666, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 131
+  }, 
+  {
+    "fields": {
+      "school": 0.76, 
+      "transportation": 0.5297029702970297, 
+      "money": 803, 
+      "zipCode": "11225", 
+      "eating": 0.6754010712035287, 
+      "clinicNumber": 2, 
+      "health": 0.42, 
+      "shopping": 0.0, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 132
+  }, 
+  {
+    "fields": {
+      "school": 0.78, 
+      "transportation": 0.481981981981982, 
+      "money": 829, 
+      "zipCode": "11226", 
+      "eating": 0.6685887361941636, 
+      "clinicNumber": 9, 
+      "health": 0.55, 
+      "shopping": 0.6, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 10
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 133
+  }, 
+  {
+    "fields": {
+      "school": 0.67, 
+      "transportation": 0.5232273838630807, 
+      "money": 835, 
+      "zipCode": "11228", 
+      "eating": 0.6853621883656512, 
+      "clinicNumber": 5, 
+      "health": 0.49, 
+      "shopping": 0.70638427734375, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 134
+  }, 
+  {
+    "fields": {
+      "school": 0.66, 
+      "transportation": 0.5219512195121951, 
+      "money": 717, 
+      "zipCode": "11229", 
+      "eating": 0.6677706355003649, 
+      "clinicNumber": 26, 
+      "health": 0.66, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 135
+  }, 
+  {
+    "fields": {
+      "school": 0.66, 
+      "transportation": 0.5799457994579946, 
+      "money": 805, 
+      "zipCode": "11230", 
+      "eating": 0.6844130170316297, 
+      "clinicNumber": 12, 
+      "health": 0.58, 
+      "shopping": 0.690943287037037, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 136
+  }, 
+  {
+    "fields": {
+      "school": 0.77, 
+      "transportation": 0.6625386996904026, 
+      "money": 725, 
+      "zipCode": "11231", 
+      "eating": 0.7035386737869507, 
+      "clinicNumber": 9, 
+      "health": 0.57, 
+      "shopping": 0.0, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 8
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 137
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.528395061728395, 
+      "money": 569, 
+      "zipCode": "11232", 
+      "eating": 0.698658015554031, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.6405092592592593, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 138
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.4976744186046511, 
+      "money": 644, 
+      "zipCode": "11233", 
+      "eating": 0.7059340094062314, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "shopping": 0.7416724376731302, 
+      "security": 0.125, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 139
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.5194174757281553, 
+      "money": 784, 
+      "zipCode": "11234", 
+      "eating": 0.6578485687903971, 
+      "clinicNumber": 11, 
+      "health": 0.56, 
+      "shopping": 0.6937130177514792, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 140
+  }, 
+  {
+    "fields": {
+      "school": 0.66, 
+      "transportation": 0.5232273838630807, 
+      "money": 734, 
+      "zipCode": "11235", 
+      "eating": 0.6917137246522786, 
+      "clinicNumber": 25, 
+      "health": 0.66, 
+      "shopping": 0.732930966469428, 
+      "security": 0.25, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 141
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.45824411134903636, 
+      "money": 735, 
+      "zipCode": "11236", 
+      "eating": 0.6177004887037335, 
+      "clinicNumber": 8, 
+      "health": 0.51, 
+      "shopping": 0.6985778702740201, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 142
+  }, 
+  {
+    "fields": {
+      "school": 0.83, 
+      "transportation": 0.5831062670299726, 
+      "money": 711, 
+      "zipCode": "11238", 
+      "eating": 0.6941892159489343, 
+      "clinicNumber": 13, 
+      "health": 0.59, 
+      "shopping": 0.7166666666666665, 
+      "preschoolNumber": 13
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 143
+  }, 
+  {
+    "fields": {
+      "transportation": 0.5737265415549597, 
+      "money": 703, 
+      "zipCode": "11237", 
+      "eating": 0.6985520974031427, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.7332550884834532, 
+      "security": 0.1428571492433548
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 144
+  }, 
+  {
+    "fields": {
+      "school": 0.64, 
+      "transportation": 0.5245098039215687, 
+      "money": 689, 
+      "zipCode": "11354", 
+      "eating": 0.6902436854601318, 
+      "clinicNumber": 31, 
+      "health": 0.7, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 145
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "shopping": 0.0, 
+      "money": 768, 
+      "zipCode": "11239", 
+      "eating": 0.6204889807162534, 
+      "security": 0.125, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 146
+  }, 
+  {
+    "fields": {
+      "school": 0.75, 
+      "transportation": 0.5059101654846336, 
+      "money": 698, 
+      "zipCode": "11355", 
+      "eating": 0.6943228070977784, 
+      "clinicNumber": 27, 
+      "health": 0.67, 
+      "shopping": 0.0, 
+      "preschoolNumber": 9
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 147
+  }, 
+  {
+    "fields": {
+      "school": 0.78, 
+      "transportation": 0.6114285714285714, 
+      "money": 826, 
+      "zipCode": "11357", 
+      "eating": 0.6959968291716209, 
+      "clinicNumber": 6, 
+      "health": 0.49, 
+      "shopping": 0.0, 
+      "preschoolNumber": 10
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 148
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5572916666666666, 
+      "money": 755, 
+      "zipCode": "11356", 
+      "eating": 0.6877880658436215, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 149
+  }, 
+  {
+    "fields": {
+      "school": 0.58, 
+      "transportation": 0.5572916666666666, 
+      "money": 901, 
+      "zipCode": "11360", 
+      "eating": 0.6292171280276816, 
+      "clinicNumber": 6, 
+      "health": 0.51, 
+      "shopping": 0.0, 
+      "security": 0.5, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 150
+  }, 
+  {
+    "fields": {
+      "school": 0.64, 
+      "transportation": 0.5616797900262467, 
+      "money": 799, 
+      "zipCode": "11358", 
+      "eating": 0.6855005444385882, 
+      "clinicNumber": 9, 
+      "health": 0.56, 
+      "shopping": 0.0, 
+      "security": 0.3333333432674408, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 151
+  }, 
+  {
+    "fields": {
+      "school": 0.73, 
+      "transportation": 0.5737265415549597, 
+      "money": 787, 
+      "zipCode": "11361", 
+      "eating": 0.6642725606935002, 
+      "clinicNumber": 16, 
+      "health": 0.61, 
+      "shopping": 0.0, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 152
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 961, 
+      "eating": 0.7263888888888888, 
+      "transportation": 0.627565982404692, 
+      "zipCode": "11363"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 153
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.5558441558441558, 
+      "money": 837, 
+      "zipCode": "11362", 
+      "eating": 0.6766784547583825, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "security": 1.0, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 154
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.5, 
+      "money": 740, 
+      "zipCode": "11365", 
+      "eating": 0.6311803284780025, 
+      "clinicNumber": 3, 
+      "health": 0.39, 
+      "shopping": 0.0, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 155
+  }, 
+  {
+    "fields": {
+      "school": 0.63, 
+      "transportation": 0.5323383084577114, 
+      "money": 737, 
+      "zipCode": "11364", 
+      "eating": 0.6666004863980716, 
+      "clinicNumber": 6, 
+      "health": 0.5, 
+      "shopping": 0.8333333333333334, 
+      "security": 0.5, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 156
+  }, 
+  {
+    "fields": {
+      "school": 0.74, 
+      "transportation": 0.5107398568019093, 
+      "money": 850, 
+      "zipCode": "11366", 
+      "eating": 0.6614867761509033, 
+      "clinicNumber": 3, 
+      "health": 0.44, 
+      "shopping": 0.0, 
+      "security": 0.5, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 157
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.5047169811320755, 
+      "money": 728, 
+      "zipCode": "11368", 
+      "eating": 0.6959650960361192, 
+      "clinicNumber": 5, 
+      "health": 0.49, 
+      "shopping": 0.0, 
+      "security": 0.1666666716337204, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 158
+  }, 
+  {
+    "fields": {
+      "school": 0.57, 
+      "transportation": 0.5431472081218274, 
+      "money": 742, 
+      "zipCode": "11367", 
+      "eating": 0.6714977581686387, 
+      "clinicNumber": 6, 
+      "health": 0.52, 
+      "shopping": 0.0, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 159
+  }, 
+  {
+    "fields": {
+      "school": 0.71, 
+      "transportation": 0.5270935960591133, 
+      "money": 741, 
+      "zipCode": "11369", 
+      "eating": 0.6451759259259259, 
+      "clinicNumber": 1, 
+      "health": 0.38, 
+      "shopping": 0.0, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 160
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.5846994535519126, 
+      "money": 783, 
+      "zipCode": "11370", 
+      "eating": 0.699969181459566, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 161
+  }, 
+  {
+    "fields": {
+      "money": 710, 
+      "eating": 0.559880767906336, 
+      "shopping": 0.0, 
+      "zipCode": "11371"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 162
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.5219512195121951, 
+      "money": 736, 
+      "zipCode": "11373", 
+      "eating": 0.6679663454139732, 
+      "clinicNumber": 21, 
+      "health": 0.65, 
+      "shopping": 0.8333333333333334, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 163
+  }, 
+  {
+    "fields": {
+      "school": 0.66, 
+      "transportation": 0.528395061728395, 
+      "money": 663, 
+      "zipCode": "11372", 
+      "eating": 0.6831086309523812, 
+      "clinicNumber": 20, 
+      "health": 0.63, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 164
+  }, 
+  {
+    "fields": {
+      "school": 0.89, 
+      "transportation": 0.544529262086514, 
+      "money": 728, 
+      "zipCode": "11375", 
+      "eating": 0.6607548653258436, 
+      "clinicNumber": 40, 
+      "health": 0.73, 
+      "shopping": 0.0, 
+      "preschoolNumber": 19
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 165
+  }, 
+  {
+    "fields": {
+      "school": 0.68, 
+      "transportation": 0.5297029702970297, 
+      "money": 691, 
+      "zipCode": "11374", 
+      "eating": 0.6663963310826405, 
+      "clinicNumber": 12, 
+      "health": 0.57, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 5
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 166
+  }, 
+  {
+    "fields": {
+      "school": 0.72, 
+      "transportation": 0.5706666666666667, 
+      "money": 718, 
+      "zipCode": "11377", 
+      "eating": 0.6620549779458097, 
+      "clinicNumber": 6, 
+      "health": 0.49, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 167
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 663, 
+      "zipCode": "11378", 
+      "eating": 0.6707684368549446, 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "transportation": 0.5558441558441558
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 168
+  }, 
+  {
+    "fields": {
+      "school": 0.72, 
+      "transportation": 0.5737265415549597, 
+      "money": 718, 
+      "zipCode": "11379", 
+      "eating": 0.6766885325558795, 
+      "clinicNumber": 2, 
+      "health": 0.4, 
+      "shopping": 0.0, 
+      "security": 0.3333333432674408, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 169
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.45628997867803833, 
+      "money": 727, 
+      "zipCode": "11411", 
+      "eating": 0.6315972222222221, 
+      "shopping": 0.0, 
+      "security": 0.5, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 170
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5431472081218274, 
+      "money": 723, 
+      "zipCode": "11385", 
+      "eating": 0.6927167656284232, 
+      "clinicNumber": 15, 
+      "health": 0.6, 
+      "shopping": 0.6201249999999999, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 171
+  }, 
+  {
+    "fields": {
+      "school": 0.7, 
+      "transportation": 0.43673469387755093, 
+      "money": 726, 
+      "zipCode": "11412", 
+      "eating": 0.696420138888889, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "shopping": 0.0, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 172
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.5768194070080862, 
+      "money": 825, 
+      "zipCode": "11414", 
+      "eating": 0.6607213541666667, 
+      "clinicNumber": 4, 
+      "health": 0.45, 
+      "shopping": 0.0, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 173
+  }, 
+  {
+    "fields": {
+      "school": 0.61, 
+      "transportation": 0.45922746781115875, 
+      "money": 680, 
+      "zipCode": "11413", 
+      "eating": 0.6635436357908002, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 174
+  }, 
+  {
+    "fields": {
+      "school": 0.64, 
+      "shopping": 0.0, 
+      "money": 688, 
+      "zipCode": "11416", 
+      "eating": 0.686234085648148, 
+      "transportation": 0.4908256880733945, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 175
+  }, 
+  {
+    "fields": {
+      "transportation": 0.5646437994722955, 
+      "money": 860, 
+      "zipCode": "11415", 
+      "eating": 0.6425833333333334, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "security": 0.25
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 176
+  }, 
+  {
+    "fields": {
+      "school": 0.6, 
+      "transportation": 0.5404040404040403, 
+      "money": 712, 
+      "zipCode": "11417", 
+      "eating": 0.6808584819387287, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 177
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.4745011086474501, 
+      "money": 757, 
+      "zipCode": "11419", 
+      "eating": 0.6799260409057705, 
+      "clinicNumber": 3, 
+      "health": 0.41, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 178
+  }, 
+  {
+    "fields": {
+      "school": 0.64, 
+      "transportation": 0.5047169811320755, 
+      "money": 811, 
+      "zipCode": "11418", 
+      "eating": 0.6706190476190478, 
+      "clinicNumber": 4, 
+      "health": 0.44, 
+      "shopping": 0.0, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 179
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.48416289592760176, 
+      "money": 675, 
+      "zipCode": "11421", 
+      "eating": 0.6746889467592592, 
+      "clinicNumber": 1, 
+      "health": 0.33, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 180
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.4734513274336282, 
+      "money": 754, 
+      "zipCode": "11420", 
+      "eating": 0.6320324456688091, 
+      "clinicNumber": 2, 
+      "health": 0.38, 
+      "shopping": 0.0, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 181
+  }, 
+  {
+    "fields": {
+      "school": 0.6, 
+      "transportation": 0.4476987447698744, 
+      "money": 756, 
+      "zipCode": "11422", 
+      "eating": 0.6584325396825397, 
+      "clinicNumber": 2, 
+      "health": 0.39, 
+      "shopping": 0.0, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 182
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.5631578947368421, 
+      "money": 761, 
+      "zipCode": "11426", 
+      "eating": 0.6881380208333333, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "shopping": 0.0, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 183
+  }, 
+  {
+    "fields": {
+      "transportation": 0.4766146993318485, 
+      "money": 739, 
+      "zipCode": "11423", 
+      "eating": 0.6307332356770833, 
+      "clinicNumber": 4, 
+      "health": 0.46, 
+      "shopping": 0.0, 
+      "security": 0.25
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 184
+  }, 
+  {
+    "fields": {
+      "school": 0.57, 
+      "transportation": 0.5181598062953995, 
+      "money": 709, 
+      "zipCode": "11427", 
+      "eating": 0.536985596707819, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "shopping": 0.0, 
+      "security": 0.3333333432674408, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 185
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 702, 
+      "zipCode": "11428", 
+      "eating": 0.6746256510416666, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "transportation": 0.5119617224880383
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 186
+  }, 
+  {
+    "fields": {
+      "school": 0.62, 
+      "transportation": 0.4703296703296703, 
+      "money": 727, 
+      "zipCode": "11429", 
+      "eating": 0.6807653356481481, 
+      "shopping": 0.0, 
+      "security": 0.3333333432674408, 
+      "preschoolNumber": 3
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 187
+  }, 
+  {
+    "fields": {
+      "school": 0.72, 
+      "transportation": 0.4897025171624713, 
+      "money": 881, 
+      "zipCode": "11432", 
+      "eating": 0.6778432928640381, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 7
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 188
+  }, 
+  {
+    "fields": {
+      "money": 797, 
+      "eating": 0.5632936507936507, 
+      "shopping": 0.0, 
+      "zipCode": "11430"
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 189
+  }, 
+  {
+    "fields": {
+      "school": 0.65, 
+      "transportation": 0.45726495726495725, 
+      "money": 676, 
+      "zipCode": "11434", 
+      "eating": 0.6295395057219383, 
+      "clinicNumber": 3, 
+      "health": 0.43, 
+      "shopping": 0.0, 
+      "security": 0.20000000298023224, 
+      "preschoolNumber": 4
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 190
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 644, 
+      "zipCode": "11433", 
+      "eating": 0.6721895198522622, 
+      "clinicNumber": 1, 
+      "health": 0.34, 
+      "transportation": 0.4897025171624713
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 191
+  }, 
+  {
+    "fields": {
+      "school": 0.71, 
+      "transportation": 0.4798206278026906, 
+      "money": 740, 
+      "zipCode": "11435", 
+      "eating": 0.6633655579362646, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "preschoolNumber": 6
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 192
+  }, 
+  {
+    "fields": {
+      "school": 0.49, 
+      "transportation": 0.4874715261958998, 
+      "money": 644, 
+      "zipCode": "11436", 
+      "eating": 0.6115226337448559, 
+      "shopping": 0.0, 
+      "security": 0.25, 
+      "preschoolNumber": 1
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 193
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.47767857142857145, 
+      "money": 922, 
+      "zipCode": "11691", 
+      "eating": 0.667115340649291, 
+      "clinicNumber": 5, 
+      "health": 0.47, 
+      "shopping": 0.0, 
+      "security": 0.1428571492433548, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 194
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 487, 
+      "zipCode": "11693", 
+      "eating": 0.6982349537037035, 
+      "transportation": 0.5169082125603864, 
+      "security": 0.20000000298023224
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 195
+  }, 
+  {
+    "fields": {
+      "shopping": 0.0, 
+      "money": 706, 
+      "zipCode": "11692", 
+      "eating": 0.6324207988980716, 
+      "clinicNumber": 2, 
+      "health": 0.38, 
+      "transportation": 0.44306418219461696
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 196
+  }, 
+  {
+    "fields": {
+      "school": 0.56, 
+      "transportation": 0.5363408521303258, 
+      "money": 920, 
+      "zipCode": "11694", 
+      "eating": 0.5996759259259259, 
+      "clinicNumber": 1, 
+      "health": 0.36, 
+      "shopping": 0.0, 
+      "preschoolNumber": 2
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 197
+  }, 
+  {
+    "fields": {
+      "money": 591, 
+      "security": 0.5, 
+      "shopping": 0.0, 
+      "zipCode": "11697", 
+      "eating": 0.6779296874999999
+    }, 
+    "model": "rcmOnUser.score", 
+    "pk": 198
+  }
+]

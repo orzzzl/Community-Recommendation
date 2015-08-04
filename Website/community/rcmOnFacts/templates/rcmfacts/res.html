@@ -18,7 +18,11 @@
                     <accordion-heading>
                         #{{ forloop.counter }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zip
                         Code: {{ r.zipThing.zipCode }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        Similarity: {{ r.simlarity }}
+                        {% if r.simlaritySecondRound %} First Recommendation:{{ r.simlarity }} + Second
+                            Recommendation: {{ r.simlaritySecondRound }}
+                        {% else %}
+                            Similarity: {{ r.simlarity }}
+                        {% endif %}
                         <i class="pull-right glyphicon"
                            ng-class="{'glyphicon-chevron-down': status.open{{ forloop.counter }}, 'glyphicon-chevron-right': !status.open{{ forloop.counter }}}"></i>
                     </accordion-heading>
@@ -49,29 +53,7 @@
             {% endfor %}
         </accordion>
 
-        {#    #}
-        {#        <ul>#}
-        {#            <table class="table table-striped">#}
-        {#                <thead>#}
-        {#                <tr>#}
-        {#                    <th>#</th>#}
-        {#                    <th>Zip Code</th>#}
-        {#                    <th>Similarity</th>#}
-        {#                </tr>#}
-        {#                </thead>#}
-        {#                <tbody>#}
-        {#                {% for r in res %}#}
-        {#                    <tr>#}
-        {#                        <th>   {{ forloop.counter }}    </th>#}
-        {#                        <th>{{ r.zipThing.zipCode }}</th>#}
-        {#                        <th>{{ r.simlarity }}</th>#}
-        {#                    </tr>#}
-        {#                {% endfor %}#}
-        {#                </tbody>#}
-        {#            </table>#}
-        {#        </ul>#}
-        {#    <br>#}
-        <a href="/rcmuser/preference">Provide your preference to get better results.</a>
+        <a href="/rcmuser/preference">Goes to the 2nd Recommendation.</a>
 
         <script src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.js"></script>
     </div>

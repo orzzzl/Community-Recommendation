@@ -1,7 +1,7 @@
 {% extends 'rcmfacts/base.html' %}
 {% block title %} Preference {% endblock %}
 {% block otherthings %}
-    <link href="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnUser/static/preference.css"
+    <link href="/static/preference.css"
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/4.10.3/bootstrap-slider.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/4.10.3/css/bootstrap-slider.css"
@@ -13,6 +13,7 @@
     <div class="pre">
         <h4>Please select your preference by drag the sliders below, select a number to represent how much you cares for
             the following fields:</h4>
+        {% if error_message %}<p style="color:red;"><strong>{{ error_message }}</strong></p>{% endif %}
         </br></br>
         <form action="/rcmuser/res/" method="post">
             {% csrf_token %}
@@ -28,7 +29,7 @@
 
             </br></br></br>
             <div class="form-group">
-                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">shopping</label>
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Shopping</label>
 
                 <div class="col-sm-7 col-md-7">
                     <input name="shopping" id="shopping" data-slider-id='mySlider' type="text" data-slider-min="0"
@@ -84,18 +85,23 @@
                     median monthly onwer cost(not include mortgage):</label>
                 <br>
 
-                <div class="col-sm-7 col-md-7">
-                    <input name="cost" id="cost" data-slider-id='mySlider' type="text"
-                           data-slider-min="152"
-                           data-slider-max="1121" data-slider-step="1" value="152"
-                           data-slider-value="152">
-                </div>
+                <b>$ 152&nbsp;&nbsp;</b> <input name="cost" id="cost" type="text" class="span2" value=""
+                                                data-slider-min="152" data-slider-max="1121" data-slider-step="1"
+                                                data-slider-value="[152,1121]"/> <b>&nbsp;&nbsp;$ 1121</b>
             </div>
 
             </br></br></br>
-            <button type="submit" class="btn btn-lg btn-warning">Submit</button>
+            {% if sessionVal %}
+                <button type="submit" name="submitType" class="btn btn-lg btn-warning" value="1">Submit With Result of First Round</button>
+                <button type="submit" name="submitType" class="btn btn-lg btn-warning" value="2">Submit Without Result of First Round</button>
+            {% else %}
+                <button type="submit" name="submitType" class="btn btn-lg btn-warning" style="left: 25%;" value="2"> Submit Without Result of First Round
+                </button>
+            {% endif %}
         </form>
     </div>
-    <script crossorigin="anonymous"
-            src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnUser/static/preference.js"></script>
+    <br><br><br>
+    <script src="/static/preference.js"></script>
+    {#    <script crossorigin="anonymous"#}
+    {#            src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnUser/static/preference.js"></script>#}
 {% endblock %}

@@ -1,5 +1,5 @@
 .pre {
-    margin-top: 18vh;
+    margin-top: 10vh;
 }
 #mySlider .slider-selection {
 	background: #BABABA;
@@ -17,5 +17,6 @@ padding-left: 2vw;
 
 .btn {
     position: relative;
-    left: 48%;
+    left: 5%;
+    margin-right: 5%;
 }

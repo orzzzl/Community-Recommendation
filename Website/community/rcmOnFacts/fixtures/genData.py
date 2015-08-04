@@ -10,7 +10,7 @@ def getNum (strNum):
     res = ""
     for i in xrange (len (strNum)):
         tmp = strNum [i]
-        if (tmp == ' ' or tmp == ','):
+        if (tmp == ' ' or tmp == ',' or tmp == '$'):
             continue
         if (tmp.isdigit () or tmp == '.'):
             res += tmp
@@ -118,10 +118,6 @@ for i in inJson:
         fieldTmp ['rent'] = rentNum / totalhouseNum
         fieldTmp ['buy'] = 1 - fieldTmp ['rent']
 
-    t ["fields"] = fieldTmp
-    t ["model"] = modName
-    t ["pk"] = pknum
-    res.append(t)
 
     ############################Education
     highschool = i ['hsoh']
@@ -139,6 +135,17 @@ for i in inJson:
         fieldTmp ['highSchool'] = highNum
         fieldTmp ['bachelor'] = bachelorNum
         fieldTmp ['master'] = masterNum
-
+    ############################price
+    strMM = i ['mmocfuwithoutam']
+    try:
+        numMM = int (getNum (strMM))
+    except:
+        print "failed" + i ['zip']
+    else:
+        fieldTmp ['money'] = numMM
+    t ["fields"] = fieldTmp
+    t ["model"] = modName
+    t ["pk"] = pknum
+    res.append(t)
 fout = open (OutputFileName, 'w')
 json.dump(res, fout, indent=2)

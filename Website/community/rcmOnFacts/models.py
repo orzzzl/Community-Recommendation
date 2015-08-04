@@ -26,6 +26,8 @@ class cityData (models.Model):
     highSchool = models.FloatField(default="0.0")
     bachelor = models.FloatField(default="0.0")
     master = models.FloatField(default="0.0")
+    money = models.FloatField(default="0.0")
+    smoney = models.FloatField(default="0.0")
     def __unicode__(self):
         return unicode(self.zipCode)
 

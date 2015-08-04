@@ -1,10 +1,43 @@
 {% extends "rcmfacts/base.html" %}
 {% block title %} Result {% endblock %}
 {% block otherthings %}
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.1.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.css" rel="stylesheet">
 {% endblock %}
 {% block content %}
-    <div class="res">
-        {{ res }}
+    <div class="res" ng-app="res_app" ng-controller="AccordionDemoCtrl">
+        <label class="checkbox">
+            <input type="checkbox" ng-model="oneAtATime">
+            Open only one at a time
+        </label>
+        <accordion close-others="oneAtATime">
+            {% for r in result %}
+                <accordion-group is-open="status.open{{ forloop.counter }}">
+                    <accordion-heading>
+                        #{{ forloop.counter }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zip
+                        Code: {{ r.zipThing.zipCode }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        {% if r.simlarityFirstRound %} First Recommendation:{{ r.simlarityFirstRound }} + Second Recommendation: {{ r.simlarity }}
+                        {% else %}
+                        Similarity: {{ r.simlarity }}
+                        {% endif %}
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': status.open{{ forloop.counter }}, 'glyphicon-chevron-right': !status.open{{ forloop.counter }}}"></i>
+                    </accordion-heading>
+                     Eating Score: {{ r.zipThing.eating }} <br>
+                     Shopping Score: {{ r.zipThing.shopping }} <br>
+                     School Score: {{ r.zipThing.school }} <br>
+                     Health Score: {{ r.zipThing.health }} <br>
+                     Security Score: {{ r.zipThing.security }} <br>
+                     Transportation Score: {{ r.zipThing.transportation }} <br>
+                     Median Cost for Ownership without Mortgage: {{ r.zipThing.money }} <br>
+                </accordion-group>
+            {% endfor %}
+        </accordion>
+
+        <a href="/rcmuser/preference">Goes to the 1st Recommendation.</a>
+
+        <script src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.js"></script>
     </div>
 {% endblock %}

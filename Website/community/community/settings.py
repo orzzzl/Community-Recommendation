@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rcmOnFacts',
-    'rcmOnUser'
+    'rcmOnUser',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -84,6 +84,7 @@ DATABASES = {
     }
 }
 
+# SESSION_ENGINE = "django.contrib.sessions.backends.file"
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
