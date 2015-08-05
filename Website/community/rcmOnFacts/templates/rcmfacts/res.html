@@ -53,8 +53,16 @@
             {% endfor %}
         </accordion>
 
+        {% if  choices.submitType == '1' %}
+            <iframe src="/rcmfacts/satisfaction3.html" frameBorder="0" width="100%">
+            </iframe>
+        {% else %}
+            <iframe src="/rcmfacts/satisfaction1.html" frameBorder="0" width="100%">
+            </iframe>
+        {% endif %}
+        <br>
         <a href="/rcmuser/preference">Goes to the 2nd Recommendation.</a>
-
+        <br> <br> <br>
         <script src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.js"></script>
     </div>
 {% endblock %}

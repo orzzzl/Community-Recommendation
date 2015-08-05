@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<BR>
+<p>Are you satisfied with this results based only on a mixture of both?</p>
+<form action="/rcmfacts/thankyou/" method="post">
+    {% csrf_token %}
+            <button type="submit" name="submitType" class="btn btn-lg btn-danger" value="31">Yes
+            </button>
+            <button style="margin-left: 14%" type="submit" name="submitType" class="btn btn-lg btn-danger twosubButton" value="32">&nbsp;No&nbsp;
+            </button>
+    </form>
+</body>
+</html>

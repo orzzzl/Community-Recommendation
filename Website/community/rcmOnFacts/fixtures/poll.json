@@ -1,0 +1,26 @@
+[
+  {
+    "fields": {
+      "sat": 1,
+      "nosat": 1
+    },
+    "model": "rcmOnFacts.sat",
+    "pk": 1
+  },
+  {
+    "fields": {
+     "sat": 1,
+     "nosat": 1
+    },
+    "model": "rcmOnFacts.sat",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "sat": 1,
+      "nosat": 1
+    },
+    "model": "rcmOnFacts.sat",
+    "pk": 3
+  }
+  ]
