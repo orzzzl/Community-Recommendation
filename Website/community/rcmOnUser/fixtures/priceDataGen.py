@@ -22,6 +22,9 @@ def getNum (strNum):
             break
     return res
 
+def round (number):
+    return float("{0:3.03f}".format(number))
+
 pknum = 1
 res = []
 fs = open (shopping, 'r')
@@ -50,7 +53,7 @@ for i in inJson:
     except:
         print "time fail"
     else:
-        fieldTmp ['transportation'] = (0.0 + 1) / (numTime / 21.4)
+        fieldTmp ['transportation'] = round ((0.0 + 1) / (numTime / 21.4))
         min = numTime if numTime < min else min
     ############################price
     strMM = i ['mmocfuwithoutam']
@@ -68,8 +71,8 @@ for i in inJson:
             continue
         else:
             clinicOk = 1
-            fieldTmp ['health'] = j ['fields'] ['score']
-            fieldTmp ['clinicNumber'] = j ['fields'] ['totalNo']
+            fieldTmp ['health'] = round (j ['fields'] ['score'])
+            fieldTmp ['clinicNumber'] = round (j ['fields'] ['totalNo'])
     if clinicOk == 0:
         print ziptar
     
@@ -80,8 +83,8 @@ for i in inJson:
             continue
         else:
             preschoolOk = 1
-            fieldTmp ['school'] = j ['fields'] ['score']
-            fieldTmp ['preschoolNumber'] = j ['fields'] ['totalNo']
+            fieldTmp ['school'] = round (j ['fields'] ['score'])
+            fieldTmp ['preschoolNumber'] = round (j ['fields'] ['totalNo'])
     if preschoolOk == 0:
         print ziptar
 
@@ -92,7 +95,7 @@ for i in inJson:
             continue
         else:
             crimeOk = 1
-            fieldTmp ['security'] = float (j ['fields'] ['score'])
+            fieldTmp ['security'] = round (float (j ['fields'] ['score']))
     if crimeOk == 0:
         print "crime" + str (ziptar)
 
@@ -103,7 +106,7 @@ for i in inJson:
             continue
         else:
             shoppingOk = 1
-            fieldTmp ['shopping'] = float (j ['fields'] ['score'])
+            fieldTmp ['shopping'] = round (float (j ['fields'] ['score']))
     if shoppingOk == 0:
         print "shopping" + str (ziptar)
         
@@ -114,7 +117,7 @@ for i in inJson:
             continue
         else:
             eatingOk = 1
-            fieldTmp ['eating'] = float (j ['fields'] ['score'])
+            fieldTmp ['eating'] = round (float (j ['fields'] ['score']))
     if eatingOk == 0:
         print "eating" + str (ziptar)
             

@@ -1,13 +1,13 @@
 .heading {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .inner {
-  position: absolute;
-  top: 40%;
+    position: absolute;
+    top: 40%;
+    margin-right: 600px;
 }
-
 
 .btn {
     position: relative;
@@ -15,9 +15,9 @@
 }
 
 .btn-warning {
-  color: black;
-  background-color: white;
-  border-color: black;
+    color: black;
+    background-color: white;
+    border-color: black;
 }
 
 .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {

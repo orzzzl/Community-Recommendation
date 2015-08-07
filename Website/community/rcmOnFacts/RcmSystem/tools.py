@@ -43,3 +43,6 @@ def getNum (strNum):
         else:
             break
     return res
+
+def round (number):
+    return float("{0:3.03f}".format(number))

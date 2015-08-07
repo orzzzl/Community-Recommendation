@@ -5,7 +5,6 @@ modName = 'rcmOnFacts.cityData'
 InputFileName = '/Users/zelengzhuang/Defiled_Katty/CityDataCrawler/out.json'
 OutputFileName = 'cityData.json'
 
-
 def getNum (strNum):
     res = ""
     for i in xrange (len (strNum)):
@@ -17,6 +16,10 @@ def getNum (strNum):
         else:
             break
     return res
+
+def round (number):
+    return float("{0:3.03f}".format(number))
+
 
 pknum = 0
 res = []
@@ -34,8 +37,8 @@ for i in inJson:
     numW = int (getNum(strW.strip()))
     sums = numM + numW
     fieldTmp ['zipCode'] = i ['zip'].strip()
-    fieldTmp ['malePercentage'] = (numM + 0.0) / sums
-    fieldTmp ['femalePercentage'] = (numW + 0.0) / sums
+    fieldTmp ['malePercentage'] = round ((numM + 0.0) / sums)
+    fieldTmp ['femalePercentage'] = round ((numW + 0.0) / sums)
 
     #######################Marriage
     strNeverm = i ['neverm']
@@ -56,11 +59,11 @@ for i in inJson:
         print "$$$$$$$$$$$$"
     else:
         sumsOfMarr = numWidow + numNeverm + numDivorced + numNowm + numSep
-        fieldTmp ['neverMarried'] = numNeverm / sumsOfMarr
-        fieldTmp ['nowMarried'] = numNowm / sumsOfMarr
-        fieldTmp ['seperated'] = numSep / sumsOfMarr
-        fieldTmp ['divorced'] = numDivorced / sumsOfMarr
-        fieldTmp ['widowed'] = numWidow / sumsOfMarr
+        fieldTmp ['neverMarried'] = round (numNeverm / sumsOfMarr)
+        fieldTmp ['nowMarried'] = round (numNowm / sumsOfMarr)
+        fieldTmp ['seperated'] = round (numSep / sumsOfMarr)
+        fieldTmp ['divorced'] = round (numDivorced / sumsOfMarr)
+        fieldTmp ['widowed'] = round (numWidow / sumsOfMarr)
 
     #########################Races
     strwhite = i ['wp']
@@ -85,14 +88,14 @@ for i in inJson:
     except (Exception):
         print "race exception"
     else:
-        fieldTmp ['white'] = numwhite / sumsOfRaces
-        fieldTmp ['black'] = numblack / sumsOfRaces
-        fieldTmp ['americanIndian'] = numamericanindian / sumsOfRaces
-        fieldTmp ['asian'] = numasian / sumsOfRaces
-        fieldTmp ['hispanic'] = numhispanic / sumsOfRaces
-        fieldTmp ['hawaiian'] = numhawaiian / sumsOfRaces
-        fieldTmp ['twoOrMore'] = numtwoormore / sumsOfRaces
-        fieldTmp ['otherRace'] = numother / sumsOfRaces
+        fieldTmp ['white'] = round (numwhite / sumsOfRaces)
+        fieldTmp ['black'] = round (numblack / sumsOfRaces)
+        fieldTmp ['americanIndian'] = round (numamericanindian / sumsOfRaces)
+        fieldTmp ['asian'] = round (numasian / sumsOfRaces)
+        fieldTmp ['hispanic'] = round (numhispanic / sumsOfRaces)
+        fieldTmp ['hawaiian'] = round (numhawaiian / sumsOfRaces)
+        fieldTmp ['twoOrMore'] = round (numtwoormore / sumsOfRaces)
+        fieldTmp ['otherRace'] = round (numother / sumsOfRaces)
 
     ############################Sex Orient
     gay = i ['gm']
@@ -103,8 +106,8 @@ for i in inJson:
     except (Exception):
         print "sex exception"
     else:
-        fieldTmp ['gay'] = gaynum
-        fieldTmp ['lesbian'] = lesbiannum
+        fieldTmp ['gay'] = round (gaynum)
+        fieldTmp ['lesbian'] = round (lesbiannum)
 
     ############################Rent or Buy
     rent = i ['roa']
@@ -115,8 +118,8 @@ for i in inJson:
     except (Exception):
         print "rent or buy exception"
     else:
-        fieldTmp ['rent'] = rentNum / totalhouseNum
-        fieldTmp ['buy'] = 1 - fieldTmp ['rent']
+        fieldTmp ['rent'] = round (rentNum / totalhouseNum)
+        fieldTmp ['buy'] = round (1 - fieldTmp ['rent'])
 
 
     ############################Education
@@ -131,10 +134,10 @@ for i in inJson:
     except (Exception):
         print "education exception"
     else:
-        fieldTmp ['noEducation'] = noedunum
-        fieldTmp ['highSchool'] = highNum
-        fieldTmp ['bachelor'] = bachelorNum
-        fieldTmp ['master'] = masterNum
+        fieldTmp ['noEducation'] = round (noedunum)
+        fieldTmp ['highSchool'] = round (highNum)
+        fieldTmp ['bachelor'] = round (bachelorNum)
+        fieldTmp ['master'] = round (masterNum)
     ############################price
     strMM = i ['mmocfuwithoutam']
     try:

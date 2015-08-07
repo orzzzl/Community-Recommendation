@@ -11,8 +11,8 @@
 {% block content %}
 
     <div class="pre">
-        <h4>Please select your preference by drag the sliders below, select a number to represent how much you cares for
-            the following fields:</h4>
+        <h4>Please express your preferences by dragging the sliders below, select a number to represent how important
+            the following options are to you:</h4>
         {% if error_message %}<p style="color:red;"><strong>{{ error_message }}</strong></p>{% endif %}
         </br></br>
         <form action="/rcmuser/res/" method="post">
@@ -59,7 +59,7 @@
             </div>
             </br></br></br>
             <div class="form-group">
-                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Security:</label>
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Security</label>
 
                 <div class="col-sm-7 col-md-7">
                     <input name="security" id="security" data-slider-id='mySlider' type="text" data-slider-min="0"
@@ -69,7 +69,7 @@
             </div>
             </br></br></br>
             <div class="form-group">
-                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Time to work</label>
+                <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Time to reach workplace</label>
 
                 <div class="col-sm-7 col-md-7">
                     <input name="transportation" id="transportation" data-slider-id='mySlider' type="text"
@@ -82,7 +82,7 @@
 
             <div class="form-group">
                 <label for="fun" class="col-sm-4 col-md-4 control-label text-left">You can set up a filter for the
-                    median monthly onwer cost(not include mortgage):</label>
+                    median monthly owner costs(not including mortgage bills)</label>
                 <br>
 
                 <b>$ 152&nbsp;&nbsp;</b> <input name="cost" id="cost" type="text" class="span2" value=""

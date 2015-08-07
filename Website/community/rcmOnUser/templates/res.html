@@ -18,20 +18,36 @@
                     <accordion-heading>
                         #{{ forloop.counter }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zip
                         Code: {{ r.zipThing.zipCode }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        {% if r.simlarityFirstRound %} First Recommendation:{{ r.simlarityFirstRound }} + Second Recommendation: {{ r.simlarity }}
+                        {% if r.simlarityFirstRound %} First Recommendation:{{ r.simlarityFirstRound }} + Second
+                            Recommendation: {{ r.simlarity }}
                         {% else %}
-                        Similarity: {{ r.simlarity }}
+                            Similarity: {{ r.simlarity }}
                         {% endif %}
                         <i class="pull-right glyphicon"
                            ng-class="{'glyphicon-chevron-down': status.open{{ forloop.counter }}, 'glyphicon-chevron-right': !status.open{{ forloop.counter }}}"></i>
                     </accordion-heading>
-                     Eating Score: {{ r.zipThing.eating }} <br>
-                     Shopping Score: {{ r.zipThing.shopping }} <br>
-                     School Score: {{ r.zipThing.school }} <br>
-                     Health Score: {{ r.zipThing.health }} <br>
-                     Security Score: {{ r.zipThing.security }} <br>
-                     Transportation Score: {{ r.zipThing.transportation }} <br>
-                     Median Cost for Ownership without Mortgage: {{ r.zipThing.money }} <br>
+                    <table>
+                        <tr>
+                            <td>
+                                Eating Score: {{ r.zipThing.eating }} <br>
+                                Shopping Score: {{ r.zipThing.shopping }} <br>
+                                School Score: {{ r.zipThing.school }} <br>
+                                Health Score: {{ r.zipThing.health }} <br>
+                                Security Score: {{ r.zipThing.security }} <br>
+                                Transportation Score: {{ r.zipThing.transportation }} <br>
+                                Median Cost for Ownership without Mortgage: {{ r.zipThing.money }} <br>
+                            </td>
+                            <td>
+                                <iframe
+                                        width="300"
+                                        height="200"
+                                        frameborder="0" style="border:0"
+                                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA548H9aG7BTYLaYoHiAX5OufpbscTwN1U
+    &q={{ r.zipThing.zipCode }}" allowfullscreen>
+                                </iframe>
+                            </td>
+                        </tr>
+                    </table>
                 </accordion-group>
             {% endfor %}
         </accordion>
@@ -44,7 +60,7 @@
             </iframe>
         {% endif %}
         <br>
-        <a href="/rcmfacts/questions">Goes to the 1st Recommendation.</a>
+        <a href="/rcmfacts/questions">Go to the 1st Recommendation.</a>
 
         <script src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.js"></script>
     </div>

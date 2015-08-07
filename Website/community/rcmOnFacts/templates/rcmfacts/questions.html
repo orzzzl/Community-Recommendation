@@ -25,7 +25,7 @@
                             <input name="gender" value="1" type="radio">Male
                         </label>
                         <label class="btn btn-success">
-                            <input name="gender" value="2" type="radio">I don't want to tell
+                            <input name="gender" value="2" type="radio">I'd rather not say
                         </label>
                         <label class="btn btn-success">
                             <input name="gender" value="3" type="radio">Female
@@ -37,7 +37,7 @@
         <br><br>
 
         <div class="form-group">
-            <label for="fun" class="col-sm-4 col-md-4 control-label text-right">What's your sexual orientation</label>
+            <label for="fun" class="col-sm-4 col-md-4 control-label text-right">Sexual orientation</label>
 
             <div class="col-sm-7 col-md-7">
                 <div class="input-group">
@@ -52,7 +52,7 @@
                             <input name="sexorient" value="3" type="radio">Straight
                         </label>
                         <label class="btn btn-success">
-                            <input name="sexorient" value="4" type="radio">I don't want to tell
+                            <input name="sexorient" value="4" type="radio">I'd rather not say
                         </label>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                             <input name="rentbuy" value="2" type="radio">Buy
                         </label>
                         <label class="btn btn-success">
-                            <input name="rentbuy" value="3" type="radio">I don't want to tell
+                            <input name="rentbuy" value="3" type="radio">I'd rather not say
                         </label>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
         <br><br>
 
         <div class="form-group">
-            <label class="col-sm-4 col-md-4 control-label text-right">What's your marriage status</label>
+            <label class="col-sm-4 col-md-4 control-label text-right">What's your relationship status</label>
 
             <div class="col-xs-6 selectContainer">
                 <select name="marriage" class="form-control">
@@ -93,14 +93,14 @@
                     <option value="3">Seperated</option>
                     <option value="4">Divorced</option>
                     <option value="5">Widowed</option>
-                    <option value="6">Don't want to tell</option>
+                    <option value="6">I'd rather not say</option>
                 </select>
             </div>
         </div>
         <br><br>
 
         <div class="form-group">
-            <label class="col-sm-4 col-md-4 control-label text-right">What's your race</label>
+            <label class="col-sm-6 col-md-4 control-label text-right">What is your race please</label>
 
             <div class="col-xs-6 selectContainer">
                 <select name="race" class="form-control">
@@ -128,20 +128,22 @@
                     <option value="2">High school or higher</option>
                     <option value="3">Bachelor's degree or higher</option>
                     <option value="4">Graduate or professional degree</option>
-                    <option value="5">Don't want to tell</option>
+                    <option value="5">I'd rather not say</option>
                 </select>
             </div>
         </div>
         <br><br><br>
         {% if sessionVal %}
-            <button type="submit" name="submitType" class="btn btn-lg btn-warning twosubButton" value="1">Submit With Result of Second
+            <button type="submit" name="submitType" class="btn btn-lg btn-warning twosubButton" value="1">Submit With
+                Result of Second
                 Round
             </button>
-            <button type="submit" name="submitType" class="btn btn-lg btn-warning twosubButton" value="2">Submit Without Result of
+            <button type="submit" name="submitType" class="btn btn-lg btn-warning twosubButton" value="2">Submit Without
+                Result of
                 Second Round
             </button>
         {% else %}
-            <button type="submit" name="submitType" class="btn btn-lg btn-warning submitButton"  value="2"> Submit
+            <button type="submit" name="submitType" class="btn btn-lg btn-warning submitButton" value="2"> Submit
                 Without Result of Second Round
             </button>
         {% endif %}

@@ -26,29 +26,43 @@
                         <i class="pull-right glyphicon"
                            ng-class="{'glyphicon-chevron-down': status.open{{ forloop.counter }}, 'glyphicon-chevron-right': !status.open{{ forloop.counter }}}"></i>
                     </accordion-heading>
-                    Male Percentage: {{ r.zipThing.malePercentage }} <br>
-                    Female Percentage: {{ r.zipThing.femalePercentage }} <br>
-                    Gay Percentage: {{ r.zipThing.gay }} <br>
-                    Lesbian Percentage: {{ r.zipThing.lesbian }} <br>
-                    Percentage of Rent: {{ r.zipThing.rent }} <br><br>
-                    Asian Percentage: {{ r.zipThing.asian }} <br>
-                    White Percentage: {{ r.zipThing.white }} <br>
-                    Black Percentage: {{ r.zipThing.black }} <br>
-                    American Indian Percentage: {{ r.zipThing.americanIndian }} <br>
-                    Hispanic or Latino Percentage: {{ r.zipThing.hispanic }} <br>
-                    Native Hawaiian and Pacific Islander Percentage: {{ r.zipThing.hawaiian }} <br>
-                    Two or more races Percentage: {{ r.zipThing.twoOrMore }} <br>
-                    Some other races Percentage: {{ r.zipThing.otherRace }} <br><br>
-                    Percentage of Never Married: {{ r.zipThing.neverMarried }} <br>
-                    Percentage of Currently Married: {{ r.zipThing.nowMarried }} <br>
-                    Percentage of Separated: {{ r.zipThing.seperated }} <br>
-                    Percentage of Divorced: {{ r.zipThing.divorced }} <br>
-                    Percentage of Widowed: {{ r.zipThing.widowed }} <br><br>
-                    Percentage of No Education: {{ r.zipThing.noEducation }} <br>
-                    Percentage of High School: {{ r.zipThing.highSchool }} <br>
-                    Percentage of Bachelor: {{ r.zipThing.bachelor }} <br>
-                    Percentage of Graduates or Higher: {{ r.zipThing.master }} <br>
-
+                    <table>
+                        <tr>
+                            <td>
+                                Male Percentage: {{ r.zipThing.malePercentage }} <br>
+                                Female Percentage: {{ r.zipThing.femalePercentage }} <br>
+                                Gay Percentage: {{ r.zipThing.gay }} <br>
+                                Lesbian Percentage: {{ r.zipThing.lesbian }} <br>
+                                Percentage of Rent: {{ r.zipThing.rent }} <br><br>
+                                Asian Percentage: {{ r.zipThing.asian }} <br>
+                                White Percentage: {{ r.zipThing.white }} <br>
+                                Black Percentage: {{ r.zipThing.black }} <br>
+                                American Indian Percentage: {{ r.zipThing.americanIndian }} <br>
+                                Hispanic or Latino Percentage: {{ r.zipThing.hispanic }} <br>
+                                Native Hawaiian and Pacific Islander Percentage: {{ r.zipThing.hawaiian }} <br>
+                                Two or more races Percentage: {{ r.zipThing.twoOrMore }} <br>
+                                Some other races Percentage: {{ r.zipThing.otherRace }} <br><br>
+                                Percentage of Never Married: {{ r.zipThing.neverMarried }} <br>
+                                Percentage of Currently Married: {{ r.zipThing.nowMarried }} <br>
+                                Percentage of Separated: {{ r.zipThing.seperated }} <br>
+                                Percentage of Divorced: {{ r.zipThing.divorced }} <br>
+                                Percentage of Widowed: {{ r.zipThing.widowed }} <br><br>
+                                Percentage of No Education: {{ r.zipThing.noEducation }} <br>
+                                Percentage of High School: {{ r.zipThing.highSchool }} <br>
+                                Percentage of Bachelor: {{ r.zipThing.bachelor }} <br>
+                                Percentage of Graduates or Higher: {{ r.zipThing.master }} <br>
+                            </td>
+                            <td>
+                                <iframe
+                                        width="300"
+                                        height="450"
+                                        frameborder="0" style="border:0"
+                                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA548H9aG7BTYLaYoHiAX5OufpbscTwN1U
+    &q={{ r.zipThing.zipCode }}" allowfullscreen>
+                                </iframe>
+                            </td>
+                        </tr>
+                    </table>
                 </accordion-group>
             {% endfor %}
         </accordion>
@@ -61,7 +75,7 @@
             </iframe>
         {% endif %}
         <br>
-        <a href="/rcmuser/preference">Goes to the 2nd Recommendation.</a>
+        <a href="/rcmuser/preference">Go to the 2nd Recommendation.</a>
         <br> <br> <br>
         <script src="http://orzzzl.github.io/Defiled_Katty/Website/community/rcmOnFacts/static/res.js"></script>
     </div>
