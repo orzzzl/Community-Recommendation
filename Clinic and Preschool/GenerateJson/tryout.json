@@ -1,4 +1,0 @@
-[{"model":"rcmOnUser.ClinicScore","pk":1,"fields":{"zipcode":10001,"score":0.83,"totalNo":68}}
-{"model":"rcmOnUser.ClinicScore","pk":2,"fields":{"zipcode":10002,"score":0.58,"totalNo":13}}
-{"model":"rcmOnUser.ClinicScore","pk":3,"fields":{"zipcode":10003,"score":0.9,"totalNo":108}}
-]
